@@ -1,0 +1,9 @@
+.header-bg-transparent .main-menu li > a{
+    color: #fff;
+}
+
+.header-bg-transparent .btn {
+    background-color: transparent;
+    color: #fff;
+    border: #fff 2px solid;
+}
