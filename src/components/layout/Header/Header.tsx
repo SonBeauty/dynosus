@@ -25,7 +25,7 @@ const HeaderComponent: React.FC<HeaderProps> = ({ handleOpen, headerStyle }) => 
                         <div className="header-left">
                             <div className="header-logo">
                                 <a href="/" className="d-flex">
-                                    {headerStyle ? <img width={187} height={50} alt="Dionysus" src={`/assets/imgs/template/${headerStyle.includes("normal-logo") ? "logo" : "logo-white"}.svg`} /> : <img width={187} height={50} alt="Dionysus" src="/assets/imgs/template/logo.svg" />}
+                                    {headerStyle ? <img alt="Dionysus" src={`/assets/imgs/template/${headerStyle.includes("normal-logo") ? "logo" : "logo-white"}.svg`} /> : <img alt="Dionysus" src="/assets/imgs/template/logo.svg" />}
                                 </a>
                             </div>
                             <div className="header-nav">
