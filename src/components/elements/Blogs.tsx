@@ -10,27 +10,30 @@ interface BlogData {
 }
 
 interface BlogsProps {
+	title?: string;
+	description?: string;
 	blogsData?: BlogData[]
 }
 
-const Blogs: React.FC<BlogsProps> = ({ blogsData }) => {
+const Blogs: React.FC<BlogsProps> = ({ title, description, blogsData }) => {
 	return (
 		<section className="section-box mt-100">
-			<div className="container mt-60">
-				<div className="row">
-					<div className="col-lg-8">
-						<h3 className="text-heading-1 mb-10">Latest News</h3>
-						<p className="text-body-lead-large color-gray-600">
-							From Our blog and Event fanpage
-						</p>
-					</div>
-					<div className="col-lg-4 text-lg-end text-start pt-30">
-						<Link to="/#" className="btn btn-black icon-arrow-right-white">
-							View More
-						</Link>
+			{
+				title &&
+				<div className="container mt-60">
+					<div className="row">
+						<div className="col-lg-8">
+							<h3 className="text-heading-1 mb-10">{title}</h3>
+							{description && <p className="text-body-lead-large color-gray-600">{description}</p>}
+						</div>
+						<div className="col-lg-4 text-lg-end text-start pt-30">
+							<Link to="/#" className="btn btn-black icon-arrow-right-white">
+								View More
+							</Link>
+						</div>
 					</div>
 				</div>
-			</div>
+			}
 			<div className="container mt-60">
 				<div className="row">
 					{
@@ -49,7 +52,7 @@ const Blogs: React.FC<BlogsProps> = ({ blogsData }) => {
 										<Link to={blog.link}>
 											<img
 												src={blog.imageUrl}
-												alt="Moirai"
+												alt="Dionysus"
 												className='img-about-1'
 											/>
 										</Link>
@@ -61,7 +64,6 @@ const Blogs: React.FC<BlogsProps> = ({ blogsData }) => {
 				</div>
 			</div>
 		</section >
-
 	);
 };
 
