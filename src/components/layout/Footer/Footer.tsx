@@ -1,16 +1,16 @@
 import { Link } from "react-router-dom";
 import React from "react";
 
-const Footer7: React.FC = () => {
+const FooterComponent: React.FC = () => {
     return (
         <div>
-            <footer className="footer footer7 mt-50">
+            <footer className="footer mt-50">
                 <div className="container">
                     <div className="footer-top">
                         <div className="row">
                             <div className="col-md-4 col-sm-6 text-center text-md-start">
                                 <Link to="/">
-                                    <img alt="Moirai" src="/assets/imgs/template/logo.svg" width={187} height={50} />
+                                    <img alt="Dionysus" src="/assets/imgs/template/logo.svg" width={187} height={50} />
                                 </Link>
                             </div>
                             <div className="col-md-8 col-sm-6 text-center text-md-end">
@@ -77,27 +77,33 @@ const Footer7: React.FC = () => {
                             <h4 className="text-heading-5">Support</h4>
                             <ul className="menu-footer mt-20">
                                 <li>
-                                    <Link to="/#">FAQs
+                                    <Link to="/#">
+                                        FAQs
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="/#">Editor Help
+                                    <Link to="/#">
+                                        Editor Help
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="/#">Community
+                                    <Link to="/#">
+                                        Community
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="/#">Live Chatting
+                                    <Link to="/#">
+                                        Live Chatting
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="#">Contact Us
+                                    <Link to="#">
+                                        Contact Us
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="/#">Support Center
+                                    <Link to="/#">
+                                        Support Center
                                     </Link>
                                 </li>
                             </ul>
@@ -106,23 +112,28 @@ const Footer7: React.FC = () => {
                             <h4 className="text-heading-5">Useful links</h4>
                             <ul className="menu-footer mt-20">
                                 <li>
-                                    <Link to="/#">Request an offer
+                                    <Link to="/#">
+                                        Request an offer
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="/#">How it works
+                                    <Link to="/#">
+                                        How it works
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="/#">Pricing
+                                    <Link to="/#">
+                                        Pricing
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="/#">Reviews
+                                    <Link to="/#">
+                                        Reviews
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="/#">Stories
+                                    <Link to="/#">
+                                        Stories
                                     </Link>
                                 </li>
                             </ul>
@@ -130,8 +141,8 @@ const Footer7: React.FC = () => {
                     </div>
                     <div className="footer-bottom mt-20">
                         <div className="row">
-                            <div className="col-md-7 col-sm-7 col-12">
-                                <span className="color-gray-400 text-body-lead">© Moirai Official 2023</span>
+                            <div className="col-md-6">
+                                <span className="color-gray-400 text-body-lead">©Dionysus Official 2022</span>
                                 <Link to="/page-terms" className="text-body-text color-gray-400 ml-50">Privacy policy
                                 </Link>
                                 <Link to="/page-terms" className="text-body-text color-gray-400 ml-50">Cookies
@@ -139,15 +150,15 @@ const Footer7: React.FC = () => {
                                 <Link to="/page-terms" className="text-body-text color-gray-400 ml-50">Terms of service
                                 </Link>
                             </div>
-                            <div className="col-md-5 col-sm-5 col-12 text-center text-lg-end text-md-end">
+                            <div className="col-md-6 text-center text-lg-end text-md-end">
                                 <div className="footer-social">
-                                    <Link to="https://facebook.com" className="icon-socials icon-facebook-deep-red">
+                                    <Link to="https://facebook.com" className="icon-socials icon-facebook">
                                     </Link>
-                                    <Link to="https://twitter.com" className="icon-socials icon-twitter-deep-red">
+                                    <Link to="https://twitter.com" className="icon-socials icon-twitter">
                                     </Link>
-                                    <Link to="https://www.instagram.com" className="icon-socials icon-instagram-deep-red">
+                                    <Link to="https://www.instagram.com" className="icon-socials icon-instagram">
                                     </Link>
-                                    <Link to="https://www.linkedin.com" className="icon-socials icon-linkedin-deep-red">
+                                    <Link to="https://www.linkedin.com" className="icon-socials icon-linkedin">
                                     </Link>
                                 </div>
                             </div>
@@ -159,4 +170,4 @@ const Footer7: React.FC = () => {
     );
 };
 
-export default Footer7;
+export default FooterComponent;

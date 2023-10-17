@@ -1,0 +1,43 @@
+.header-bg-transparent .main-menu li > a{
+    color: #fff;
+}
+
+.header-bg-transparent .btn {
+    background-color: transparent;
+    color: #fff;
+    border: #fff 2px solid;
+}
+
+.burger-icon {
+    top: 38% !important;
+}
+
+@media (max-width: 768px) {
+    .header-right {
+        display: block;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .header .main-header .header-left .header-logo {
+        margin-right: 0;
+        min-width: 90px;
+    }
+
+    .header .main-header .header-right .block-signin .btn.btn-default {
+        font-size: 14px;
+    }
+
+    .header .main-header .header-left {
+        display: flex;
+        align-items: center;
+        width: fit-content;
+    }
+
+    .header .main-header .header-right {
+        max-width: 195px;
+        margin-right: 20px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+}

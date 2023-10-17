@@ -9,7 +9,7 @@ import Blog from "../components/elements/Blog";
 import AboutUs from "../components/elements/AboutUs/index";
 import Logos from "../components/elements/Logo/index";
 import BestSeller from "../components/elements/BestSeller";
-import PricingTable from "../components/elements/PriceTable2/index";
+
 import NewProducts from "../components/elements/NewProduct/index";
 
 function Home(): JSX.Element {
@@ -211,7 +211,7 @@ function Home(): JSX.Element {
               That’s For You
             </h3>
           </div>
-          <PricingTable />
+          {/* <PricingTable /> */}
         </section>
         <Newsletter />
         <ModalVideo

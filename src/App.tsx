@@ -26,7 +26,7 @@ function App() {
       <Route path='/index-6' element={<Index6 />} />
       <Route path='/index-7' element={<Index7 />} />
       <Route path='/index-8' element={<Index8 />} />
-      <Route path="/services" element= {<Services />} />
+      <Route path="/service" element= {<Services />} />
       <Route path='/blog-1' element={<Blog1 />} />
       <Route path='/blog-2' element={<Blog2 />} />
       <Route path='*' element={<Error />} />

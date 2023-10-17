@@ -1,13 +1,14 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import "react-modal-video/css/modal-video.css";
-import PriceTable3 from "../components/elements/PriceTable3";
 import Layout from "../components/layout/Layout";
 import ModalVideo from "react-modal-video";
 import Feedback from "../components/elements/Feedback";
 import { FBData } from "../util/feedbackData";
 import Blog from "../components/elements/Blog";
 import Newsletter from "../components/elements/Newsletter";
+import { PriceTable } from "../components/elements/PriceTable";
+import { PricingData1 } from "../Data/pricingData";
 
 function Index4(): JSX.Element {
     const [isOpen, setOpen] = useState(false);
@@ -264,7 +265,7 @@ function Index4(): JSX.Element {
                             That’s For You
                         </h3>
                     </div>
-                    <PriceTable3 />
+                    <PriceTable priceData={PricingData1} priceItemStyle="price-style-2" />
                 </section>
                 <section className="section-box">
                     <div className="container mt-30">
