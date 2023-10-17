@@ -34896,3 +34896,12 @@ input.qty-val {
   -webkit-line-clamp: 2;
   overflow: hidden;
 }
+
+.color-olive {
+  color: #747759;
+}
+
+.bg-olive {
+  background-color: #747759;
+  color: #ffffff;
+}
