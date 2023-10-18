@@ -8,6 +8,11 @@
   border: #fff 2px solid;
 }
 
+.header .main-menu li a:hover,
+.header .main-menu li a.active{
+  color: #006d77;
+}
+
 .burger-icon {
   top: 38% !important;
 }

@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 interface HeaderProps {
   handleOpen: () => void;
@@ -8,6 +8,7 @@ interface HeaderProps {
 
 const HeaderComponent: React.FC<HeaderProps> = ({ handleOpen, headerStyle }) => {
   const [scroll, setScroll] = useState(false);
+  const { pathname } = useLocation();
 
   useEffect(() => {
     document.addEventListener("scroll", () => {
@@ -32,13 +33,13 @@ const HeaderComponent: React.FC<HeaderProps> = ({ handleOpen, headerStyle }) => 
                 <nav className="nav-main-menu d-none d-xl-block">
                   <ul className="main-menu">
                     <li className="has-children">
-                      <Link to="#" className="active">Home</Link>
-                      <ul className="sub-menu two-col">
+                      <Link to="#">Home</Link>
+                      <ul className="sub-menu">
                         <li>
-                          <Link to="/"><i className="fi fi-rr-home" />Homepage - 1</Link>
+                          <Link to="/" className={`${pathname === '/' && 'active'}`}><i className="fi fi-rr-home" />Homepage - 1</Link>
                         </li>
                         <li>
-                          <Link to="/index-2"><i className="fi fi-rr-home" />Homepage - 2</Link>
+                          <Link to="/index-2" className={`${pathname === '/index-2' && 'active'}`}><i className="fi fi-rr-home" />Homepage - 2</Link>
                         </li>
                       </ul>
                     </li>
@@ -46,7 +47,7 @@ const HeaderComponent: React.FC<HeaderProps> = ({ handleOpen, headerStyle }) => 
                       <Link to="#">About Us</Link>
                     </li>
                     <li>
-                      <Link to="/Service">Service</Link>
+                      <Link to="/service" className={`${pathname === '/service' && 'active'}`}>Service</Link>
                     </li>
                     <li>
                       <Link to="#">Product</Link>

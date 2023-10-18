@@ -46,7 +46,7 @@ function Services(): JSX.Element {
           </div>
         </section>
         <section className="section-box mt-100">
-          <div className="container mt-70">
+          <div className="container mt-60">
             <div className="row">
               <div className="col-lg-12 col-12">
                 <ProposeInfo data={Propose1Data} />
@@ -67,7 +67,7 @@ function Services(): JSX.Element {
           </div>
         </section>
         <section className="section-box mt-100">
-          <div className="container mt-70">
+          <div className="container mt-60">
             <div className="row">
               <div className="col-xl-7 col-lg-12 col-mb-12 pb-30">
                 <h2 className="text-heading-1 text-center text-sm-start color-olive">The Stages Of Your Project</h2>
@@ -88,7 +88,7 @@ function Services(): JSX.Element {
           </div>
         </section>
         <section className="section-box mt-100">
-          <div className="container mt-70">
+          <div className="container mt-60">
             <h2 className="text-heading-1 text-center">Multiple Design Services <br className="d-lg-block d-none" /> Options To Suit Your Needs</h2>
           </div>
           <PriceTable priceData={PricingData3} priceItemStyle="price-style-3" />
