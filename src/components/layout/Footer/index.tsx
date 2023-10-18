@@ -3,5 +3,5 @@ import FooterComponent from "./Footer";
 import './footer.css';
 
 export const Footer: React.FC = () => {
-    return <FooterComponent />;
+  return <FooterComponent />;
 }

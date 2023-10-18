@@ -2,13 +2,14 @@ import { Link } from "react-router-dom";
 import React, { useState } from "react";
 import Style from "../css/Home1.module.css";
 import { data } from "../Data/ShopData";
+import { PricingData4 } from "../Data/pricingData";
 import Layout from "../components/layout/Layout";
 import Category from "../components/elements/Category";
 import CustomerFeedback from "../components/elements/CustomerFeedback";
-import PricingTable from "../components/elements/PriceTable2";
 import Button from "../components/elements/Button/Button";
 import InconTrueSVG from "../components/svg/InconTrueSVG";
 import ProductCategory from "../components/elements/ProductCategory";
+import { PriceTable } from "../components/elements/PriceTable";
 
 interface Product {
   id: number;
@@ -171,7 +172,7 @@ function Home(): JSX.Element {
             That’s For You
           </h3>
         </div>
-        <PricingTable />
+        <PriceTable priceData={PricingData4} />
       </section>
     </Layout>
   );
