@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
-import PriceTable from "../components/elements/PriceTable";
 import Layout from "../components/layout/Layout";
 import Newsletter from "../components/elements/Newsletter";
 import CustomerFeedback from "../components/elements/CustomerFeedback";
+import { PriceTable } from "../components/elements/PriceTable";
+import { PricingData1 } from "../Data/pricingData";
 
 function Index2(): JSX.Element {
     return (
@@ -452,7 +453,7 @@ function Index2(): JSX.Element {
                                 That&apos;s For You
                             </h3>
                         </div>
-                        <PriceTable />
+                        <PriceTable priceData={PricingData1} />
                     </section>
                     <Newsletter newsletterStyle="style-1" />
                 </div>
