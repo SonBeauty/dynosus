@@ -9,7 +9,6 @@ interface PricingData {
   pricingMonth?: number;
   pricingYear?: number;
 }
-
 interface PriceTableProps {
   priceItemStyle?: string;
   priceData: PricingData[];
@@ -33,7 +32,6 @@ const PriceTableComponent: React.FC<PriceTableProps> = ({ priceItemStyle, priceD
             <span className="text-lg text-billed">Bill Annually</span>
           </div>
         }
-
         <div className={`block-pricing block-pricing-2 mt-70 ${priceItemStyle}`}>
           <div className="row">
             <div className="col-xl-12 col-lg-12">

@@ -5,10 +5,10 @@ interface Propose {
   title: string;
   description: string;
 }
-
 interface ProposeInfoProps {
   data: Propose;
 }
+
 export const ProposeInfo: React.FC<ProposeInfoProps> = ({data}) => {
   return (
     <>
