@@ -12,6 +12,7 @@ import Blog1 from './pages/Blog-1';
 import Blog2 from './pages/Blog-2';
 import Error from './pages/404';
 import SingleVendor from './pages/shop/[id]';
+import About from './pages/about';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
       <Route path='/blog-2' element={<Blog2 />} />
       <Route path='*' element={<Error />} />
       <Route path='/shop/:id' element={<SingleVendor />} />
+      <Route path='/about' element={<About />} />
     </Routes>
   );
 }
