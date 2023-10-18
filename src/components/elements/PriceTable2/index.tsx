@@ -13,7 +13,7 @@ const PricingTable: React.FC = () => {
                 "Custom designs & features",
                 "Custom permissions",
             ],
-            delay: '.1s'
+            delay: ".1s",
         },
         {
             price: 89,
@@ -25,31 +25,32 @@ const PricingTable: React.FC = () => {
                 "Custom instructors",
                 "Custom permissions",
             ],
-            delay: '.2s'
+            delay: ".2s",
+            className: "hover-up active",
         },
         {
             price: 129,
             title: "Premium",
-            description: "Avvanced features for pros who need more.",
+            description: "Advanced features for pros who need more.",
             features: [
                 "Unlimited updates",
                 "Custom designs & features",
                 "Custom permissions",
                 "Custom instructors",
             ],
-            delay: '.3s'
+            delay: ".3s",
         },
         {
             price: 129,
-            title: "Premium",
-            description: "Avvanced features for pros who need more.",
+            title: "Unlimited",
+            description: "Advanced features for pros who need more.",
             features: [
                 "Unlimited updates",
                 "Custom designs & features",
                 "Custom permissions",
                 "Custom instructors",
             ],
-            delay: '.4s'
+            delay: ".4s",
         },
     ];
 
@@ -64,15 +65,26 @@ const PricingTable: React.FC = () => {
                 <div className="text-center block-bill-2 mt-10">
                     <span className="text-lg text-billed">Billed Monthly</span>
                     <label className="switch ml-20 mr-20">
-                        <input id="cb_billed_type" type="checkbox" name="billed_type" onClick={toggleTrueFalse} />
-                        <span className="slider round" /></label>
+                        <input
+                            id="cb_billed_type"
+                            type="checkbox"
+                            name="billed_type"
+                            onClick={toggleTrueFalse}
+                        />
+                        <span className="slider round" />
+                    </label>
                     <span className="text-lg text-billed">Bill Annually</span>
                 </div>
-                <div className="block-pricing block-pricing-2 mt-70">
+                <div className="block-pricing block-pricing-2 mt-70 active">
                     <div className="container">
                         <div className="row">
-                            {pricingItems.map((item) => (
-                                <PricingItem key={item.title} {...item} toggle={isToggled} />
+                            {pricingItems.map((item, index) => (
+                                <PricingItem
+                                    key={item.title}
+                                    {...item}
+                                    toggle={isToggled}
+                                    className={index === 1 ? "active" : ""}
+                                />
                             ))}
                         </div>
                     </div>

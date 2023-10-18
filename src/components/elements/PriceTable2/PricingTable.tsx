@@ -7,14 +7,15 @@ interface pricingtable {
     description: string,
     features: string[],
     toggle: boolean,
-    delay: string
+    delay: string,
+    className: string
 }
 
-const PricingItem: React.FC<pricingtable> = ({ price, title, description, features, delay, toggle }) => {
+const PricingItem: React.FC<pricingtable> = ({ price, title, description, features, delay, toggle, className }) => {
 
     return (
-        <div className="col-xl-3 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay={`${delay}`}>
-            <div className="box-pricing-item">
+        <div className={`col-xl-3 col-lg-6 col-md-6 wow animate__animated animate__fadeIn  `} data-wow-delay={`${delay}`}>
+            <div className={`box-pricing-item ${className} `}>
                 <div className="box-info-price">
                     <span className="text-heading-3 for-month display-month">${toggle ? 150 : price}</span>
                     <span className="text-month for-month text-body-small color-gray-400 display-month">/{toggle ? "Year" : " Month"}</span>
@@ -29,7 +30,7 @@ const PricingItem: React.FC<pricingtable> = ({ price, title, description, featur
                     ))}
                 </ul>
                 <div>
-                    <Link to="/#" className="btn btn-black-border text-body-lead icon-arrow-right">Get Started</Link>
+                    <Link to="/#" className="btn btn-black text-body-lead icon-arrow-right-white">Get Started</Link>
                 </div>
             </div>
         </div>

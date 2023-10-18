@@ -1,0 +1,156 @@
+.bannerHp {
+    background-image: url("../../public/assets/imgs/page/homepage1/banner-HP1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+}
+
+.bg1 {
+  background-color: #286E6C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 70px;
+  border-radius: 20px;
+}
+
+.dFlex {
+  display: flex;
+  align-items: center;
+}
+
+.borderRight {
+  border-right: 1px solid #fff;
+}
+
+.headerContent {
+  margin-top: 80px;
+}
+
+.px70{
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.furnitureBanner {
+  background-image: url('../../public/assets/imgs/page/homepage1/bannerFurnitue.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.textBody{
+  color: var(--color-gray-gray-600, #475467);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Noto Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.textTitle {
+  color: var(--color-gray-gray-900, #101828);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Chivo;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 45px;
+  text-transform: capitalize;
+}
+
+.textTheme {
+  color: var(--color-gray-gray-900, #101828);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: 'Chivo', sans-serif;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px;
+  text-transform: capitalize;
+}
+
+.mt50 {
+  margin-top: 50px;
+}
+
+.headerBtn {
+  margin-top: 40px
+}
+
+.aesthetic {
+  border-radius: 30px;
+}
+
+.active {
+  background-color: #286E6C;
+  color: #fff;
+  border-radius: 10px
+}
+
+.active:hover {
+  color: #fff;
+}
+
+@media (max-width: 1399.98px){
+  .px70{
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+
+  .mt50 {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 1199.98px){
+  .px70{
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .bannerHp{
+    height: 800px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .bg1 {
+    display: none;
+  }
+  .bannerHp{
+    height: 700px;
+  }
+  .dFlex {
+    display: block;
+  }
+  .headerContent{
+    margin-top: 10px;
+  }
+  .furnitureBanner{
+    background-position: -222px;
+  }
+}
+
+@media (max-width: 768px){
+  .textTitle{
+    line-height: 40px;
+  }
+ 
+}
+
+@media (max-width: 575.98px) {
+  .bannerHp {
+    height: 500px;
+  }
+  .headerBtn {
+    margin-top: 10px;
+  }
+
+  .furnitureBanner{
+    background-position: left;
+  }
+}
