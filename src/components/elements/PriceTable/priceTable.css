@@ -63,7 +63,3 @@
   background-repeat: no-repeat;
   background-position: center right 25px;
 }
-
-.block-pricing-2 .box-pricing-item.active .btn.btn-pricing:hover {
-  background-color: #000 !important
-}
