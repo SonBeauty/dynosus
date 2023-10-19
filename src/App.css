@@ -29504,6 +29504,14 @@ label {
   background-position: center right 25px;
 }
 
+.block-pricing-2 .btn.btn-pricing:hover  {
+  background-color: #000 !important
+}
+
+.block-pricing-2 .box-pricing-item.active .btn.btn-pricing {
+  background-color: #000 !important
+}
+
 .nav-style-homepage-3 li button.active {
   color: #006d77;
   background: none;

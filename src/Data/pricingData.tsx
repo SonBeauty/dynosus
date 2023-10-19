@@ -147,3 +147,55 @@ export const PricingData3: PricingData[] = [
     pricing: 199
   }
 ];
+
+export const PricingData4: PricingData[] = [
+  {
+    pricingMonth: 50,
+    pricingYear: 150,
+    title: "Standard",
+    decription: "All the basics for businesses that are just starting out.",
+    features: [
+      "Unlimited updates",
+      "Custom permissions",
+      "Custom designs & features",
+      "Custom permissions",
+    ],
+  },
+  {
+    pricingMonth: 89,
+    pricingYear: 150,
+    title: "Essentials",
+    decription: "All the basics for businesses that are just starting out.",
+    features: [
+      "Unlimited updates",
+      "Custom permissions",
+      "Custom instructors",
+      "Custom permissions",
+    ],
+  },
+  {
+    pricingMonth: 129,
+    pricingYear: 150,
+    title: "Premium",
+    decription: "Advanced features for pros who need more.",
+    features: [
+      "Unlimited updates",
+      "Custom designs & features",
+      "Custom permissions",
+      "Custom instructors",
+    ],
+  },
+  {
+    pricingMonth: 129,
+    pricingYear: 150,
+    title: "Unlimited",
+    decription: "Advanced features for pros who need more.",
+    features: [
+      "Unlimited updates",
+      "Custom designs & features",
+      "Custom permissions",
+      "Custom instructors",
+    ],
+  },
+]
+
