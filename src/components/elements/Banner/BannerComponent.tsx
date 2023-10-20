@@ -20,7 +20,6 @@ export const BannerComponent: React.FC<BannerProps> = ({ tag, title, description
             {tag &&
               <span className="tag-1 bg-olive color-white">{tag}</span>
             }
-            
             <h2 className="text-heading-1 color-white mt-30">{title}</h2>
             <p className="text-body-lead-large color-white mt-20">{description}</p>
             {hasButton &&
