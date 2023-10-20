@@ -1,21 +1,19 @@
-import { aboutUsHomepage } from "../../../Data/AboutUsData";
-import AboutUsItem from "./AboutUsItem";
+import React from "react";
+import AboutUsComponent from "./AboutUs";
 
-const AboutUs = () => {
-    return (
-        <>
-            {aboutUsHomepage.map((item) => (
-                <AboutUsItem
-                    key={item.title}
-                    title={item.title}
-                    backgroundImage={item.backgroundImage}
-                    content={item.content}
-                    link={item.link}
-                    className={item?.className}
-                />
-            ))}
-        </>
-    );
+interface AboutUsData {
+  title: string;
+  content: string;
+  image: string;
+  bdBGColor: string;
+}
+interface AboutUsProps {
+  AUData?: AboutUsData[];
+  bigTitle: string;
+  decription: string;
+  tag?: string;
+}
+
+export const AboutUs: React.FC<AboutUsProps> = ({ AUData, bigTitle, decription, tag }) => {
+  return <AboutUsComponent AUData={AUData} bigTitle={bigTitle} decription={decription} tag={tag}/>
 };
-
-export default AboutUs;

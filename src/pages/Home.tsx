@@ -5,11 +5,11 @@ import Layout from "../components/layout/Layout";
 import TestimonialSlider from "../components/slider/Testimonial";
 import OfferSlider from "../components/slider/Offer";
 import Newsletter from "../components/elements/Newsletter";
-import Blog from "../components/elements/Blog";
-import AboutUs from "../components/elements/AboutUs/index";
+// import Blog from "../components/elements/Blog";
+// import AboutUs from "../components/elements/AboutUs/index";
 import Logos from "../components/elements/Logo/index";
 import BestSeller from "../components/elements/BestSeller";
-import PricingTable from "../components/elements/PriceTable2/index";
+
 import NewProducts from "../components/elements/NewProduct/index";
 
 function Home(): JSX.Element {
@@ -112,7 +112,7 @@ function Home(): JSX.Element {
           </div>
           <div className="container mt-60">
             <div className="row">
-              <AboutUs />
+              {/* <AboutUs /> */}
             </div>
           </div>
         </section>
@@ -200,7 +200,7 @@ function Home(): JSX.Element {
           </div>
           <div className="container mt-90">
             <div className="row">
-              <Blog />
+              {/* <Blog /> */}
             </div>
           </div>
         </section>
@@ -211,7 +211,7 @@ function Home(): JSX.Element {
               That’s For You
             </h3>
           </div>
-          <PricingTable />
+          {/* <PricingTable /> */}
         </section>
         <Newsletter />
         <ModalVideo
