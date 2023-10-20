@@ -8,14 +8,13 @@ interface BlogData {
   link: string;
   bgColor: string;
 }
-
 interface BlogsProps {
   title?: string;
   description?: string;
   blogsData?: BlogData[]
 }
 
-const Blogs: React.FC<BlogsProps> = ({ title, description, blogsData }) => {
+const BlogsComponent: React.FC<BlogsProps> = ({ title, description, blogsData }) => {
   return (
     <section className="section-box mt-100">
       {
@@ -39,22 +38,19 @@ const Blogs: React.FC<BlogsProps> = ({ title, description, blogsData }) => {
           {
             blogsData && blogsData?.map((blog, i) =>
               <div className="col-lg-4 col-md-6 col-sm-12 pr-30 mb-20" key={i}>
-                <div className="blog-category">
-                  <div className='h-title'>
-                    <span className="tag-dot mb-2">{blog.tag}</span>
-                    <Link to={blog.link} className="text-heading-5 blog-header color-gray-900">
-                      {blog.title}
-                    </Link>
-                  </div>
-                </div>
-                <div className='about-1'>
-                  <div className={`grid-4-img mt-2 ${blog.bgColor}`}>
+                <div className="card-grid-style-4">
+                  <span className="tag-dot mb-2">{blog.tag}</span>
+                  <Link to={blog.link}><a className="text-heading-5 color-gray-900 blog-header">
+                    {blog.title}</a>
+                  </Link>
+                  <div className={`grid-4-img mt-3 ${blog.bgColor}`}>
                     <Link to={blog.link}>
-                      <img
-                        src={blog.imageUrl}
-                        alt="Dionysus"
-                        className='img-about-1'
-                      />
+                      <a>
+                        <img
+                          src={blog.imageUrl}
+                          alt="Dionysus"
+                        />
+                      </a>
                     </Link>
                   </div>
                 </div>
@@ -67,4 +63,4 @@ const Blogs: React.FC<BlogsProps> = ({ title, description, blogsData }) => {
   );
 };
 
-export default Blogs;
+export default BlogsComponent;

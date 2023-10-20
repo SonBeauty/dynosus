@@ -44,7 +44,7 @@ const HeaderComponent: React.FC<HeaderProps> = ({ handleOpen, headerStyle }) => 
                       </ul>
                     </li>
                     <li>
-                      <Link to="#">About Us</Link>
+                      <Link to="/about" className={`${pathname === '/about' && 'active'}`}>About Us</Link>
                     </li>
                     <li>
                       <Link to="/service" className={`${pathname === '/service' && 'active'}`}>Service</Link>
