@@ -22,7 +22,7 @@ export const BannerComponent: React.FC<BannerProps> = ({ tag, title, description
             }
             
             <h2 className="text-heading-1 color-white mt-30">{title}</h2>
-            <p className="text-body-lead-large color-white">{description}</p>
+            <p className="text-body-lead-large color-white mt-20">{description}</p>
             {hasButton &&
               <div className="group-res-btns text-center mt-50">
               <Link to="#" className="btn btn-black icon-arrow-right-white mb-20">Join Our Team</Link>

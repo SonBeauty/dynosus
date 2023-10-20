@@ -1,0 +1,21 @@
+.btnBlackBorder {
+    font-family: "Chivo", sans-serif;
+    padding: 15px 55px;
+    font-size: 18px;
+    line-height: 22px;
+    transition: 0.2s;
+    letter-spacing: 0.45px;
+    border-radius: 10px;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+.btnBlackBorder:hover {
+    background-color: #101828;
+    background-repeat: no-repeat;
+    color: #fff;
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+    -webkit-transition: 0.2s;
+    transition: 0.2s;    
+}

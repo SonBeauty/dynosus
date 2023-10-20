@@ -2,8 +2,9 @@ import { Link } from "react-router-dom";
 import Layout from "../components/layout/Layout";
 import Newsletter from "../components/elements/Newsletter";
 import CustomerFeedback from "../components/elements/CustomerFeedback";
-import { PriceTable } from "../components/elements/PriceTable";
 import { PricingData1 } from "../Data/pricingData";
+import { PriceTable } from "../components/elements/PriceTable";
+
 
 function Index2(): JSX.Element {
     return (
