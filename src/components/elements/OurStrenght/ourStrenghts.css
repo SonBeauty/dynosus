@@ -1,0 +1,12 @@
+.list-icons .item-icon {
+  position: relative;
+  padding: 0px 0px 0px 80px;
+  margin-bottom: 0px;
+}
+
+@media (max-width: 992px) {
+  .list-icons .item-icon{
+    padding: 0px 0px 40px 80px;
+    margin-bottom: 40px;
+  }
+}

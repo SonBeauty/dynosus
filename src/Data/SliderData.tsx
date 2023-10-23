@@ -3,32 +3,28 @@ export const SliderDataRow1 = [
         job: "Marketing CEO",
         title: "Theresa Webb",
         img: "team-1.png",
-        content:
-            "Captivated and inspired by the ingenuity and artistry of our extraordinary fashion designer",
+        content: "Captivated and inspired by the ingenuity and artistry of our extraordinary furniture designer",
         action: " Let’s Connect",
     },
     {
         job: "Designer",
         title: "Darlene Robertson",
         img: "team-2.png",
-        content:
-            "Captivated and inspired by the ingenuity and artistry of our extraordinary fashion designer",
+        content: "Captivated and inspired by the ingenuity and artistry of our extraordinary furniture designer",
         action: " Let’s Connect",
     },
     {
         job: "Designer",
         title: "Devon Lane",
         img: "team-3.png",
-        content:
-            "Captivated and inspired by the ingenuity and artistry of our extraordinary fashion designer",
+        content: "Captivated and inspired by the ingenuity and artistry of our extraordinary furniture designer",
         action: " Let’s Connect",
     },
     {
         job: "Designer",
         title: "Darrell Steward",
         img: "team-4.png",
-        content:
-            "Captivated and inspired by the ingenuity and artistry of our extraordinary fashion designer",
+        content: "Captivated and inspired by the ingenuity and artistry of our extraordinary furniture designer",
         action: " Let’s Connect",
     },
 ];

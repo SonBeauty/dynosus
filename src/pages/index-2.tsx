@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import Layout from "../components/layout/Layout";
-import Newsletter from "../components/elements/Newsletter";
-import { PricingData1 } from "../Data/pricingData";
+import { PricingData3 } from "../Data/pricingData";
 import { data } from "../Data/ShopData";
 import { PriceTable } from "../components/elements/PriceTable";
 import ProductCategory from "../components/elements/ProductCategory";
@@ -11,6 +10,8 @@ import Style from '../css/Home2.module.css'
 import { useState } from "react";
 import IconComponent from "../components/elements/IconComponent";
 import BannerComponent from "../components/elements/BannerComponent";
+import { blogsData1 } from "../Data/Blog";
+import { Blogs } from "../components/elements/Blogs";
 
 function Index2(): JSX.Element {
     const [isActive, setIsActive] = useState(1)
@@ -47,13 +48,13 @@ function Index2(): JSX.Element {
                 </div>
                 <div className="container mt-60 mb-100">
                     <div className="row text-center justify-content-center">
-                        <div className={`${Style.textContain} col-lg-3`} onClick={() => setIsActive(1)}>LATEST <div className={` ${isActive === 1 ? Style.active : ''}`}></div></div>
-                        <div className={`${Style.textContain} col-lg-3`} onClick={() => setIsActive(2)}>BEST SELLING <div className={` ${isActive === 2 ? Style.active : ''}`}></div></div>
-                        <div className={`${Style.textContain} col-lg-3`} onClick={() => setIsActive(3)}>SPECIAL <div className={` ${isActive === 3 ? Style.active : ''}`}></div></div>
+                        <div className={`${Style.textContain} col-lg-3 col-md-4 `} onClick={() => setIsActive(1)}>LATEST <div className={` ${isActive === 1 ? Style.active : ''}`}></div></div>
+                        <div className={`${Style.textContain} col-lg-3 col-md-4`} onClick={() => setIsActive(2)}>BEST SELLING <div className={` ${isActive === 2 ? Style.active : ''}`}></div></div>
+                        <div className={`${Style.textContain} col-lg-3 col-md-4 `} onClick={() => setIsActive(3)}>SPECIAL <div className={` ${isActive === 3 ? Style.active : ''}`}></div></div>
                     </div>
                     <ProductCategory data={data} />
                 </div>
-                    <section className="section-box mt-100">
+                <section className="section-box mt-100">
                     <div className="container mt-70">
                         <div className="bg-2 bdrd-58 pattern-white pb-60">
                             <div className="row">
@@ -68,15 +69,15 @@ function Index2(): JSX.Element {
                                 </div>
                                 <div className="col-lg-2 col-sm-1 col-12" />
                             </div>
-                        <div className="container mt-60">
+                            <div className="container mt-60">
                                 <OfferSlider />
-                                </div>
                             </div>
                         </div>
-                    </section>
-                    <section className="section-box mt-100">
+                    </div>
+                </section>
+                <section className="section-box mt-100">
                     <div className="container mt-70">
-                            <div className="row">
+                        <div className="row">
                             <div className="col-lg-9 col-sm-8">
                                 <h3 className="text-heading-1 mb-10">Customers Feedback</h3>
                                 <p className="text-body-lead-large color-gray-600">
@@ -87,16 +88,17 @@ function Index2(): JSX.Element {
                     </div>
                     <div className="container mt-60 mobile-feedback">
                         <TestimonialSlider />
-                        </div>
-                    </section>
-                <section className="section-box mt-100 section-blue">
-                        <div className="container mt-60">
-                            <h3 className="text-heading-1 text-center mb-10">
-                                Choose The Best Plan <br className="d-lg-block d-none" />
-                                That&apos;s For You
-                            </h3>
-                        </div>
-                    <PriceTable priceData={PricingData1} priceItemStyle="price-style-4" />
+                    </div>
+                    <Blogs title="Latest News" description="From Our blog and Event fanpage" blogsData={blogsData1} />
+                </section>
+                <section className="section-box mt-100 section-blue mb-100">
+                    <div className="container mt-60">
+                        <h3 className="text-heading-1 text-center mb-10">
+                            Choose The Best Plan <br className="d-lg-block d-none" />
+                            That&apos;s For You
+                        </h3>
+                    </div>
+                    <PriceTable priceData={PricingData3} priceItemStyle="price-style-4" />
                 </section>
             </Layout>
         </>
