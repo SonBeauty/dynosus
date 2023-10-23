@@ -36,7 +36,7 @@ const AboutUsComponent: React.FC<AboutUsProps> = ({ AUData, bigTitle, decription
                 <div className="card-about">
                     <div className="h-full">
                         <div className="grid-1-img">
-                          <img width={80} height={80} src={item.image} alt="Moirai" />
+                          <img width={80} height={80} src={item.image} alt="Dionysus" />
                         </div>
                         <h3 className="text-heading-4 mt-20">{item.title}</h3>
                         <p className="text-body-excerpt mt-20">{item.content}</p>

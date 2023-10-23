@@ -47,12 +47,12 @@ const Posts: React.FC<PostsProps> = ({ bigTitle, description, postsData }) => {
 						<div className="col-lg-4 col-sm-6 pr-30 mb-30" key={i}>
 							<div className="card-grid-style-4">
 								<div className={`grid-4-img mb-20 ${post.bgColor}`}>
-									<Link to={post.link}><img width={396} height={465} src={post.imageUrl} alt="Moirai" /></Link>
+									<Link to={post.link}><img width={396} height={465} src={post.imageUrl} alt="Dionysus" /></Link>
 								</div>
 								<Link to={post.link} className="text-heading-5 color-gray-900">{post.title}</Link>
 								<p className="text-body-text color-gray-500 mt-10">{post.decription}</p>
 								<div className="blog-img-user">
-									<div className="img-user img-user-round"><img width={56} height={56} src={post.authorAvatar} alt="Moirai" /></div>
+									<div className="img-user img-user-round"><img width={56} height={56} src={post.authorAvatar} alt="Dionysus" /></div>
 									<h4 className="text-heading-6 color-gray-900">{post.author}</h4>
 									<p className="text-body-small color-gray-500">{post.date}</p>
 								</div>
@@ -64,12 +64,12 @@ const Posts: React.FC<PostsProps> = ({ bigTitle, description, postsData }) => {
 							<div className="card-list-style-1" key={i + 2}>
 								<Link to={post.link} className="text-heading-6">{post.title}</Link>
 								<div className="blog-img-user">
-									<div className="img-user img-user-round"><img width={41} height={41} src={post.authorAvatar} alt="Moirai" /></div>
+									<div className="img-user img-user-round"><img width={41} height={41} src={post.authorAvatar} alt="Dionysus" /></div>
 									<h4 className="text-body-lead color-gray-500">{post.author}</h4>
 									<p className="text-body-small color-gray-500">{post.date}</p>
 								</div>
 								<div className={`style-1-img ${post.bgColor}`}>
-									<Link to={post.link}><img width={110} height={110} src={post.imageUrl} alt="Moirai" /></Link>
+									<Link to={post.link}><img width={110} height={110} src={post.imageUrl} alt="Dionysus" /></Link>
 								</div>
 							</div>
 						)}

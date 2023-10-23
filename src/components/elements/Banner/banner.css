@@ -180,3 +180,12 @@
     margin-bottom: 0;
   }
 }
+
+.banner-hero.banner-faqs {
+  padding-top: 248px;
+  padding-bottom: 120px;
+  min-height: 675px;
+  margin-top: -140px;
+  margin-bottom: 50px;
+  background: url(../../../../public/assets/imgs/page/faqs/1/bg-banner.png) no-repeat top center;
+}

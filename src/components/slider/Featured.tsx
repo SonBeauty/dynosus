@@ -51,11 +51,11 @@ const FeaturedSlider: React.FC = () => {
                                                     </Link>
                                                     <div className="rating mt-10">
                                                         <div className="box-rating">
-                                                            <span></span><img width={12} height={12} src="/assets/imgs/page/homepage5/star-active.svg" alt="Moirai" />
-                                                            <span></span><img width={12} height={12} src="/assets/imgs/page/homepage5/star-active.svg" alt="Moirai" />
-                                                            <span></span><img width={12} height={12} src="/assets/imgs/page/homepage5/star-active.svg" alt="Moirai" />
-                                                            <span></span><img width={12} height={12} src="/assets/imgs/page/homepage5/star-active.svg" alt="Moirai" />
-                                                            <span></span><img width={12} height={12} src="/assets/imgs/page/homepage5/star.svg" alt="Moirai" />
+                                                            <span></span><img width={12} height={12} src="/assets/imgs/page/homepage5/star-active.svg" alt="Dionysus" />
+                                                            <span></span><img width={12} height={12} src="/assets/imgs/page/homepage5/star-active.svg" alt="Dionysus" />
+                                                            <span></span><img width={12} height={12} src="/assets/imgs/page/homepage5/star-active.svg" alt="Dionysus" />
+                                                            <span></span><img width={12} height={12} src="/assets/imgs/page/homepage5/star-active.svg" alt="Dionysus" />
+                                                            <span></span><img width={12} height={12} src="/assets/imgs/page/homepage5/star.svg" alt="Dionysus" />
                                                         </div>
                                                         <span className="text-semibold"><span>(</span><span>{item.rating}</span><span>&nbsp;rates )</span></span>
                                                     </div>
@@ -96,11 +96,11 @@ const FeaturedSlider: React.FC = () => {
                                                     </Link>
                                                     <div className="rating mt-10">
                                                         <div className="box-rating">
-                                                            <span></span><img width={12} height={12} src="/assets/imgs/page/homepage5/star-active.svg" alt="Moirai" />
-                                                            <span></span><img width={12} height={12} src="/assets/imgs/page/homepage5/star-active.svg" alt="Moirai" />
-                                                            <span></span><img width={12} height={12} src="/assets/imgs/page/homepage5/star-active.svg" alt="Moirai" />
-                                                            <span></span><img width={12} height={12} src="/assets/imgs/page/homepage5/star-active.svg" alt="Moirai" />
-                                                            <span></span><img width={12} height={12} src="/assets/imgs/page/homepage5/star.svg" alt="Moirai" />
+                                                            <span></span><img width={12} height={12} src="/assets/imgs/page/homepage5/star-active.svg" alt="Dionysus" />
+                                                            <span></span><img width={12} height={12} src="/assets/imgs/page/homepage5/star-active.svg" alt="Dionysus" />
+                                                            <span></span><img width={12} height={12} src="/assets/imgs/page/homepage5/star-active.svg" alt="Dionysus" />
+                                                            <span></span><img width={12} height={12} src="/assets/imgs/page/homepage5/star-active.svg" alt="Dionysus" />
+                                                            <span></span><img width={12} height={12} src="/assets/imgs/page/homepage5/star.svg" alt="Dionysus" />
                                                         </div>
                                                         <span className="text-semibold"><span>(</span><span>{item.rating}</span><span>&nbsp;rates )</span></span>
                                                     </div>

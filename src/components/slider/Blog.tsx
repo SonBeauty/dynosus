@@ -48,7 +48,7 @@ const BlogSlider: React.FC = () => {
                                                 <div className="col-xl-6 col-lg-12">
                                                     <div className="img-news">
                                                         <Link to="/blog-single">
-                                                            <a><img width={677} height={492} src="/assets/imgs/page/blog/1/img-1.png" alt="Moirai" /></a>
+                                                            <a><img width={677} height={492} src="/assets/imgs/page/blog/1/img-1.png" alt="Dionysus" /></a>
                                                         </Link>
                                                     </div>
                                                 </div>
@@ -58,7 +58,7 @@ const BlogSlider: React.FC = () => {
                                                         </a></Link>
                                                         <p className="text-body-text color-gray-500 text-desc-fix-h">Lorem ipsum dolor sit amet consectetur adipiscing elit interdum ullamcorper sed pharetra senectus donec nunc. Consequat semper viverra nam libero justo laoreet facilisis magna etiam.</p>
                                                         <div className="blog-img-user">
-                                                            <div className="img-user img-user-round"><img width={56} height={56} src="/assets/imgs/page/blog/2/user-1.png" alt="Moirai" /></div>
+                                                            <div className="img-user img-user-round"><img width={56} height={56} src="/assets/imgs/page/blog/2/user-1.png" alt="Dionysus" /></div>
                                                             <h4 className="text-heading-6 color-gray-900">Jenny Wilson</h4>
                                                             <p className="text-body-small color-gray-500">August 25, 2022</p>
                                                         </div>

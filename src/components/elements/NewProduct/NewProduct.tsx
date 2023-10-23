@@ -71,7 +71,7 @@ const NewProduct: React.FC<{ activeIndex: number }> = ({ activeIndex }) => {
                                     ></div>
                                     <img
                                         src={`/assets/imgs/page/homepage1/${item?.img}`}
-                                        alt="Moirai"
+                                        alt="Dionysus"
                                     />
                                 </div>
                             </div>

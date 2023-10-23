@@ -36,7 +36,7 @@ const Feedback: React.FC<FeedbackProps> = ({ feedbackStyle, feedbackData }) => {
                     </p>
                     <div className="box-img-user">
                       <div className="img-user img-user-round">
-                        <img src={`/assets/imgs/page/homepage2/${fb.avatarUrl}.png`} alt="Moirai" />
+                        <img src={`/assets/imgs/page/homepage2/${fb.avatarUrl}.png`} alt="Dionysus" />
                       </div>
                       <h4 className="text-body-lead color-gray-900 mb-5">{fb.username}</h4>
                       <p className="text-body-text-md">{fb.job}</p>

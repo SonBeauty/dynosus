@@ -40,13 +40,13 @@ const Contact: React.FC<ContactProps> = ({ imgChart, imgNewsletter, bg }) => {
                                     <div className="block-chart shape-1">
                                         <img
                                             src={`${imgChart}`}
-                                            alt="Moirai"
+                                            alt="Dionysus"
                                         />
                                     </div>
                                     <div className="img-responsive img-newsletter">
                                         <img
                                             src={`${imgNewsletter}`}
-                                            alt="Moirai"
+                                            alt="Dionysus"
                                         />
                                     </div>
                                 </div>
