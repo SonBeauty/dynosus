@@ -7,7 +7,6 @@ import { PriceTable } from "../components/elements/PriceTable";
 import { PricingData1 } from "../Data/pricingData";
 import { deliveryData } from "../Data/DeliveryData";
 
-
 function Faqs(): JSX.Element {
   return (
     <>
