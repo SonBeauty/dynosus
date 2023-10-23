@@ -144,11 +144,11 @@ const FooterComponent: React.FC = () => {
             <div className="row">
               <div className="col-md-6">
                 <span className="color-white text-body-lead">©Dionysus Official 2022</span>
-                <Link to="/page-terms" className="text-body-text color-white ml-50">Privacy policy
+                <Link to="/terms" className="text-body-text color-white ml-50">Privacy policy
                 </Link>
-                <Link to="/page-terms" className="text-body-text color-white ml-50">Cookies
+                <Link to="/terms" className="text-body-text color-white ml-50">Cookies
                 </Link>
-                <Link to="/page-terms" className="text-body-text color-white ml-50">Terms of service
+                <Link to="/terms" className="text-body-text color-white ml-50">Terms of service
                 </Link>
               </div>
               <div className="col-md-6 text-center text-lg-end text-md-end">
