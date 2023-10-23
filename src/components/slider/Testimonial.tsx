@@ -81,7 +81,7 @@ const TestimonialSlider: React.FC = () => {
                         width={55}
                         height={55}
                         src={`/assets/imgs/page/homepage1/user-img-${item.avatar}`}
-                        alt="Moirai"
+                        alt="Dionysus"
                       />
                     </div>
                     <h3 className="text-heading-6 mb-5 mt-20">{item.name}</h3>

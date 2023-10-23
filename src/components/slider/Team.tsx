@@ -42,7 +42,7 @@ const TeamSlider: React.FC = () => {
                     <div className="row">
                       <div className="">
                         <div className="card-grid-style-5 hover-up">
-                          <div className="grid-5-img mb-15"><img style={{ objectFit: 'cover', width: '100%', height: '100%' }} src={`/assets/imgs/page/about/1/${item?.img}`} alt="Moirai" /></div><span className="text-body-text-md color-gray-500">{`${item.job}`}</span>
+                          <div className="grid-5-img mb-15"><img style={{ objectFit: 'cover', width: '100%', height: '100%' }} src={`/assets/imgs/page/about/1/${item?.img}`} alt="Dionysus" /></div><span className="text-body-text-md color-gray-500">{`${item.job}`}</span>
                           <h3 className="text-heading-5 mb-5 mt-5">{`${item?.title}`}</h3>
                           <p className="text-body-excerpt text-desc color-gray-500 mt-15 mb-20">{`${item?.content}`}</p><span className="text-body-text-md color-gray-600">{`${item?.action}`}</span>
                           <div className="social-bottom">
@@ -80,7 +80,7 @@ const TeamSlider: React.FC = () => {
                     <div className="row">
                       <div className="">
                         <div className="card-grid-style-5 hover-up">
-                          <div className="grid-5-img mb-15"><img style={{ objectFit: 'cover', width: '100%', height: '100%' }} src={`/assets/imgs/page/about/1/${item?.img}`} alt="Moirai" /></div><span className="text-body-text-md color-gray-500">{`${item.job}`}</span>
+                          <div className="grid-5-img mb-15"><img style={{ objectFit: 'cover', width: '100%', height: '100%' }} src={`/assets/imgs/page/about/1/${item?.img}`} alt="Dionysus" /></div><span className="text-body-text-md color-gray-500">{`${item.job}`}</span>
                           <h3 className="text-heading-5 mb-5 mt-5">{`${item?.title}`}</h3>
                           <p className="text-body-excerpt text-desc color-gray-500 mt-15 mb-20">{`${item?.content}`}</p><span className="text-body-text-md color-gray-600">{`${item?.action}`}</span>
                           <div className="social-bottom">

@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import React, { useState } from "react";
 import Style from "../css/Home1.module.css";
 import { data } from "../Data/ShopData";
-import { PricingData4 } from "../Data/pricingData";
+import { PricingData1 } from "../Data/pricingData";
 import Layout from "../components/layout/Layout";
 import Category from "../components/elements/Category";
 import CustomerFeedback from "../components/elements/CustomerFeedback";
@@ -172,7 +172,7 @@ function Home(): JSX.Element {
             That’s For You
           </h3>
         </div>
-        <PriceTable priceData={PricingData4} />
+        <PriceTable priceData={PricingData1} />
       </section>
     </Layout>
   );
