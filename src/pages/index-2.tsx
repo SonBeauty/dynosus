@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import Style from '../css/Home2.module.css'
 import { data } from "../Data/ShopData";
 import { blogsData1 } from "../Data/Blog";
-import { PricingData3 } from "../Data/pricingData";
 import Layout from "../components/layout/Layout";
 import { Blogs } from "../components/elements/Blogs";
 import { PriceTable } from "../components/elements/PriceTable";
@@ -12,6 +11,7 @@ import OfferSlider from "../components/slider/Offer";
 import TestimonialSlider from "../components/slider/Testimonial";
 import IconComponent from "../components/elements/IconComponent";
 import BannerComponent from "../components/elements/BannerComponent";
+import { PricingData2 } from "../Data/pricingData";
 
 function Index2(): JSX.Element {
     const [isActive, setIsActive] = useState(1)
@@ -98,7 +98,7 @@ function Index2(): JSX.Element {
                             That&apos;s For You
                         </h3>
                     </div>
-                    <PriceTable priceData={PricingData3} priceItemStyle="price-style-4" />
+                    <PriceTable priceData={PricingData2} priceItemStyle="price-style-4" />
                 </section>
             </Layout>
         </>

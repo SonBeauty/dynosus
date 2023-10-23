@@ -38,7 +38,7 @@ const Intro2: React.FC = () => {
                                             </a></Link>
                                         </div>
                                         <div className="grid-image-bottom">
-                                            <Link to="#"><a><img width={274} height={154} src="/assets/imgs/page/homepage6/img-2.png" alt="image" /></a></Link>
+                                            <Link to="#"><a><img width={274} height={154} src="/assets/imgs/page/homepage6/img-2.png" alt="Dionysus" /></a></Link>
                                         </div>
                                     </div>
                                 </div>
@@ -53,7 +53,7 @@ const Intro2: React.FC = () => {
                                             </a></Link>
                                         </div>
                                         <div className="grid-image-bottom">
-                                            <Link to="#"><a><img width={274} height={154} src="/assets/imgs/page/homepage6/img-3.png" alt="image" /></a></Link>
+                                            <Link to="#"><a><img width={274} height={154} src="/assets/imgs/page/homepage6/img-3.png" alt="Dionysus" /></a></Link>
                                         </div>
                                     </div>
                                 </div>
@@ -69,7 +69,7 @@ const Intro2: React.FC = () => {
                                             </a></Link>
                                         </div>
                                         <div className="grid-image-bottom">
-                                            <Link to="#"><a><img width={174} height={230} src="/assets/imgs/page/homepage6/img-4.png" alt="image" /></a></Link>
+                                            <Link to="#"><a><img width={174} height={230} src="/assets/imgs/page/homepage6/img-4.png" alt="Dionysus" /></a></Link>
                                         </div>
                                     </div>
                                 </div>

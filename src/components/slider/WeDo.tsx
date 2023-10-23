@@ -61,7 +61,7 @@ const WeDoSlider: React.FC = () => {
                                 <div className="swiper-slide">
                                     <div className="card-service pl-30 pr-30 hover-up">
                                         <div className="grid-2-img">
-                                            <img width={50} height={50} src={`/assets/imgs/page/services/2/${item.img}`} alt="Moirai" />
+                                            <img width={50} height={50} src={`/assets/imgs/page/services/2/${item.img}`} alt="Dionysus" />
                                         </div>
                                         <h3 className="text-heading-5 mt-20">{item.title}</h3>
                                         <p className="text-body-text color-gray-600 mt-20">{item.text}</p>

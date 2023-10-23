@@ -82,7 +82,7 @@ const OfferSlider: React.FC = () => {
                                                 width={50}
                                                 height={50}
                                                 src={`/assets/imgs/page/homepage1/${item.img}`}
-                                                alt="Moirai"
+                                                alt="Dionysus"
                                             />
                                         </div>
                                         <h3 className="text-heading-5 mt-20">{item.title}</h3>

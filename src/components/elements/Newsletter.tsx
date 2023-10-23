@@ -119,13 +119,13 @@ const Newsletter: React.FC<NewsletterProps> = ({ newsletterStyle }) => {
                   <div className="block-chart shape-1">
                     <img
                       src={styles.chartImgUrl}
-                      alt="Moirai"
+                      alt="Dionysus"
                     />
                   </div>
                   <div className="img-responsive img-newsletter">
                     <img
                       src="/assets/imgs/template/img-newsletter-1.png"
-                      alt="Moirai"
+                      alt="Dionysus"
                     />
                   </div>
                 </div>
