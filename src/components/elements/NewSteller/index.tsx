@@ -1,5 +1,6 @@
 import React from "react";
 import NewsletterComponent from "./Newsletter";
+import './newsletter.css';
 
 interface NewsletterProps {
   newsletterStyle?: string;
