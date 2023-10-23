@@ -29032,8 +29032,8 @@ label {
 }
 
 .box-hover-shadow:hover {
-  -webkit-box-shadow: 14px 14px 36px rgba(153, 153, 153, 0.22);
-  box-shadow: 14px 14px 36px rgba(153, 153, 153, 0.22);
+  -webkit-box-shadow: 14px -10px 36px rgba(153, 153, 153, 0.22);
+  box-shadow: 14px -10px 36px rgba(153, 153, 153, 0.22);
 }
 
 .block-video {
@@ -29135,10 +29135,10 @@ label {
 .pattern-white::before {
   content: "";
   position: absolute;
-  top: 0px;
+  top: 30px;
   left: 0px;
-  height: 162px;
-  width: 120px;
+  height: 175px;
+  width: 175px;
   background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYyIiBoZWlnaHQ9IjE2MiIgdmlld0JveD0iMCAwIDE2MiAxNjIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik00MSAxMjEuODU1TDgxLjg1NTMgODFIMTIyVjEyMS44NTVMODEuODU1MyAxNjJWMTIxLjg1NUg0MVoiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGQ9Ik0wIDQwLjg1NTNMNDAuODU1MyAwSDgxVjQwLjg1NTNMNDAuODU1MyA4MVY0MC44NTUzSDBaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNODEgNDEuMzUwOUwxMjEuODU1IDFIMTYyVjQxLjM1MDlMMTIxLjg1NSA4MVY0MS4zNTA5SDgxWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==)
     no-repeat top right;
   z-index: 1;
@@ -34959,6 +34959,9 @@ input.qty-val {
   .section-box.mt-100 {
     margin-top: 80px !important;
   }
+  .pattern-white::before {
+    display: none;
+  }
 }
 @media (max-width: 575.98px) {
   .services-proj-info {
@@ -34967,4 +34970,8 @@ input.qty-val {
   .visible-phone.visible-tablet{
     display: block;
   }
+  .pattern-white::before {
+    display: none;
+  }
 }
+

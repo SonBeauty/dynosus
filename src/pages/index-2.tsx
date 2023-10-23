@@ -1,17 +1,17 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
-import Layout from "../components/layout/Layout";
-import { PricingData3 } from "../Data/pricingData";
+import Style from '../css/Home2.module.css'
 import { data } from "../Data/ShopData";
+import { blogsData1 } from "../Data/Blog";
+import { PricingData3 } from "../Data/pricingData";
+import Layout from "../components/layout/Layout";
+import { Blogs } from "../components/elements/Blogs";
 import { PriceTable } from "../components/elements/PriceTable";
 import ProductCategory from "../components/elements/ProductCategory";
 import OfferSlider from "../components/slider/Offer";
 import TestimonialSlider from "../components/slider/Testimonial";
-import Style from '../css/Home2.module.css'
-import { useState } from "react";
 import IconComponent from "../components/elements/IconComponent";
 import BannerComponent from "../components/elements/BannerComponent";
-import { blogsData1 } from "../Data/Blog";
-import { Blogs } from "../components/elements/Blogs";
 
 function Index2(): JSX.Element {
     const [isActive, setIsActive] = useState(1)
@@ -35,7 +35,7 @@ function Index2(): JSX.Element {
                         </Link>
                     </div>
                 </section>
-                <div className="section-box overflow-hidden mt-90">
+                <div className="section-box overflow-hidden mt-130">
                     <div className="container">
                         <h2 className="text-heading-3 text-center color-gray-900 mb-60">
                             SHOP BY COLLECTION
@@ -46,7 +46,7 @@ function Index2(): JSX.Element {
                         </div>
                     </div>
                 </div>
-                <div className="container mt-60 mb-100">
+                <div className="container mt-60 mb-130">
                     <div className="row text-center justify-content-center">
                         <div className={`${Style.textContain} col-lg-3 col-md-4 `} onClick={() => setIsActive(1)}>LATEST <div className={` ${isActive === 1 ? Style.active : ''}`}></div></div>
                         <div className={`${Style.textContain} col-lg-3 col-md-4`} onClick={() => setIsActive(2)}>BEST SELLING <div className={` ${isActive === 2 ? Style.active : ''}`}></div></div>
@@ -54,8 +54,8 @@ function Index2(): JSX.Element {
                     </div>
                     <ProductCategory data={data} />
                 </div>
-                <section className="section-box mt-100">
-                    <div className="container mt-70">
+                <section className="section-box">
+                    <div className="container">
                         <div className="bg-2 bdrd-58 pattern-white pb-60">
                             <div className="row">
                                 <div className="col-lg-2 col-sm-1 col-12" />
@@ -75,7 +75,7 @@ function Index2(): JSX.Element {
                         </div>
                     </div>
                 </section>
-                <section className="section-box mt-100">
+                <section className="section-box mt-50">
                     <div className="container mt-70">
                         <div className="row">
                             <div className="col-lg-9 col-sm-8">
@@ -89,8 +89,8 @@ function Index2(): JSX.Element {
                     <div className="container mt-60 mobile-feedback">
                         <TestimonialSlider />
                     </div>
-                    <Blogs title="Latest News" description="From Our blog and Event fanpage" blogsData={blogsData1} />
                 </section>
+                <Blogs title="Latest News" description="From Our blog and Event fanpage" blogsData={blogsData1} />
                 <section className="section-box mt-100 section-blue mb-100">
                     <div className="container mt-60">
                         <h3 className="text-heading-1 text-center mb-10">

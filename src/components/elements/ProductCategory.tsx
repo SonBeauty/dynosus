@@ -115,7 +115,7 @@ const ProductCategory: React.FC<{ data: Product[] }> = ({ data }) => {
           </div>
         </div>
       ))}
-      <div className="text-center">
+      <div className="text-center mt-30">
         <Button content="Go to shop" />
       </div>
     </div>

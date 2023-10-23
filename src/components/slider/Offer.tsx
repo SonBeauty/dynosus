@@ -17,7 +17,7 @@ const OfferSlider: React.FC = () => {
         {
             img: "trendsetting.svg",
             title: "Aesthetic",
-            text: "Our team of experienced fashion experts keeps a pulse on the latest trends and emerging styles."
+            text: "Our team of experienced experts keeps a pulse on the latest trends and emerging styles."
         },
         {
             img: "community.svg",
@@ -32,7 +32,7 @@ const OfferSlider: React.FC = () => {
         {
             img: "trendsetting.svg",
             title: "Aesthetic",
-            text: "Our team of experienced fashion experts keeps a pulse on the latest trends and emerging styles."
+            text: "Our team of experienced experts keeps a pulse on the latest trends and emerging styles."
         }
     ];
     return (
