@@ -3,7 +3,7 @@ import Layout from "../components/layout/Layout";
 import { Propose1Data, Propose2Data, stages } from "../Data/ServicesPageData";
 import { ProposeInfo } from "../components/elements/ProposeInfo";
 import { PriceTable } from "../components/elements/PriceTable";
-import { PricingData3 } from "../Data/pricingData";
+import { PricingData2 } from "../Data/pricingData";
 
 function Services(): JSX.Element {
   return (
@@ -91,7 +91,7 @@ function Services(): JSX.Element {
           <div className="container mt-60">
             <h2 className="text-heading-1 text-center">Multiple Design Services <br className="d-lg-block d-none" /> Options To Suit Your Needs</h2>
           </div>
-          <PriceTable priceData={PricingData3} priceItemStyle="price-style-3" />
+          <PriceTable priceData={PricingData2} priceItemStyle="price-style-3" />
         </section>
       </Layout>
     </>

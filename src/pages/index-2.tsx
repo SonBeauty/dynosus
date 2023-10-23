@@ -71,18 +71,18 @@ function Index2(): JSX.Element {
                                             <div className="block-1 shape-2">
                                                 <img
                                                     src="/assets/imgs/page/homepage2/balance.png"
-                                                    alt="Moirai"
+                                                    alt="Dionysus"
                                                 />
                                             </div>
                                             <div className="block-2 shape-3">
                                                 <img
                                                     src="/assets/imgs/page/homepage2/payment.png"
-                                                    alt="Moirai"
+                                                    alt="Dionysus"
                                                 />
                                             </div>
                                             <div className="img-responsive shape-1">
                                                 <img
-                                                    alt="Moirai"
+                                                    alt="Dionysus"
                                                     src="/assets/imgs/page/homepage2/banner.png"
                                                 />
                                             </div>
@@ -101,7 +101,7 @@ function Index2(): JSX.Element {
                                 <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
                                     <Link to="/#" className="item-logo box-hover-shadow hover-up">
                                         <img
-                                            alt="Moirai"
+                                            alt="Dionysus"
                                             className="w-100"
                                             src="/assets/imgs/slider/logo/dg.svg"
                                         />
@@ -110,7 +110,7 @@ function Index2(): JSX.Element {
                                 <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
                                     <Link to="/#" className="item-logo box-hover-shadow hover-up">
                                         <img
-                                            alt="Moirai"
+                                            alt="Dionysus"
                                             className="w-100"
                                             src="/assets/imgs/slider/logo/givenchy.svg"
                                         />
@@ -119,7 +119,7 @@ function Index2(): JSX.Element {
                                 <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
                                     <Link to="/#" className="item-logo box-hover-shadow hover-up">
                                         <img
-                                            alt="Moirai"
+                                            alt="Dionysus"
                                             className="w-100"
                                             src="/assets/imgs/slider/logo/prada.svg"
                                         />
@@ -128,7 +128,7 @@ function Index2(): JSX.Element {
                                 <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
                                     <Link to="/#" className="item-logo box-hover-shadow hover-up">
                                         <img
-                                            alt="Moirai"
+                                            alt="Dionysus"
                                             className="w-100"
                                             src="/assets/imgs/slider/logo/ysl.svg"
                                         />
@@ -137,7 +137,7 @@ function Index2(): JSX.Element {
                                 <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
                                     <Link to="/#" className="item-logo box-hover-shadow hover-up">
                                         <img
-                                            alt="Moirai"
+                                            alt="Dionysus"
                                             className="w-100"
                                             src="/assets/imgs/slider/logo/versace.svg"
                                         />
@@ -146,7 +146,7 @@ function Index2(): JSX.Element {
                                 <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
                                     <Link to="/#" className="item-logo box-hover-shadow hover-up">
                                         <img
-                                            alt="Moirai"
+                                            alt="Dionysus"
                                             className="w-100"
                                             src="/assets/imgs/slider/logo/burberry.svg"
                                         />
@@ -163,12 +163,12 @@ function Index2(): JSX.Element {
                                         <img
                                             className="bdrd-16 img-responsive"
                                             src="/assets/imgs/page/homepage2/img-2.png"
-                                            alt="Moirai"
+                                            alt="Dionysus"
                                         />
                                         <div className="block-chart rounded-4 overflow-hidden">
                                             <img
                                                 src="/assets/imgs/page/homepage2/chart.png"
-                                                alt="Moirai"
+                                                alt="Dionysus"
                                             />
                                         </div>
                                     </div>
@@ -184,7 +184,7 @@ function Index2(): JSX.Element {
                                             <span className="icon-left">
                                                 <img
                                                     src="/assets/imgs/page/homepage2/icon-company.svg"
-                                                    alt="Moirai"
+                                                    alt="Dionysus"
                                                 />
                                             </span>
                                             <h4 className="text-heading-4">About the Company</h4>
@@ -197,7 +197,7 @@ function Index2(): JSX.Element {
                                             <span className="icon-left">
                                                 <img
                                                     src="/assets/imgs/page/homepage2/icon-history.svg"
-                                                    alt="Moirai"
+                                                    alt="Dionysus"
                                                 />
                                             </span>
                                             <h4 className="text-heading-4">History of Information</h4>
@@ -212,7 +212,7 @@ function Index2(): JSX.Element {
                                             <span className="icon-left">
                                                 <img
                                                     src="/assets/imgs/page/homepage2/icon-mission.svg"
-                                                    alt="Moirai"
+                                                    alt="Dionysus"
                                                 />
                                             </span>
                                             <h4 className="text-heading-4">Company Mission</h4>
@@ -264,7 +264,7 @@ function Index2(): JSX.Element {
                                         <div className="box-image-inner bg-color-1">
                                             <img
                                                 src="/assets/imgs/page/homepage2/temp-web-1.png"
-                                                alt="Moirai"
+                                                alt="Dionysus"
                                             />
                                         </div>
                                     </div>
@@ -283,7 +283,7 @@ function Index2(): JSX.Element {
                                         <div className="box-image-inner bg-color-2">
                                             <img
                                                 src="/assets/imgs/page/homepage2/temp-web-2.png"
-                                                alt="Moirai"
+                                                alt="Dionysus"
                                             />
                                         </div>
                                     </div>
@@ -316,7 +316,7 @@ function Index2(): JSX.Element {
                                             <span className="icon-left">
                                                 <img
                                                     src="/assets/imgs/page/homepage2/icon-quality.svg"
-                                                    alt="Moirai"
+                                                    alt="Dionysus"
                                                 />
                                             </span>
                                             <div className="career-category">
@@ -338,7 +338,7 @@ function Index2(): JSX.Element {
                                             <span className="icon-left">
                                                 <img
                                                     src="/assets/imgs/page/homepage2/icon-trendsetting.svg"
-                                                    alt="Moirai"
+                                                    alt="Dionysus"
                                                 />
                                             </span>
                                             <div className="career-category">
@@ -357,7 +357,7 @@ function Index2(): JSX.Element {
                                             <span className="icon-left">
                                                 <img
                                                     src="/assets/imgs/page/homepage2/icon-community.svg"
-                                                    alt="Moirai"
+                                                    alt="Dionysus"
                                                 />
                                             </span>
                                             <div className="career-category">
@@ -432,13 +432,13 @@ function Index2(): JSX.Element {
                                         <img
                                             className="bdrd-16 img-responsive"
                                             src="/assets/imgs/page/homepage2/img-best-seller.png"
-                                            alt="Moirai"
+                                            alt="Dionysus"
                                         />
                                         <div className="block-image-bottom">
                                             <img
                                                 className="bdrd-16 img-responsive"
                                                 src="/assets/imgs/page/homepage2/img-best-seller-2.png"
-                                                alt="Moirai"
+                                                alt="Dionysus"
                                             />
                                         </div>
                                     </div>
