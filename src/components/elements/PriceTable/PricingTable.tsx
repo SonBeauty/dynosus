@@ -64,8 +64,8 @@ const PriceTableComponent: React.FC<PriceTableProps> = ({ priceItemStyle, priceD
                         {opt.features.map((item, i) => <li key={i}>{item}</li>)}
                       </ul>
                       <div>
-                        <Link to="/#"><a className="btn btn-black text-body-lead icon-arrow-right-white pr-40">Get Started
-                        </a></Link>
+                        <Link to="/#" className="btn btn-black text-body-lead icon-arrow-right-white pr-40 btn-pricing">Get Started
+                        </Link>
                       </div>
                     </div>
                   </div>

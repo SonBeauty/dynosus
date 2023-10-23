@@ -1,26 +1,38 @@
-// import Image from 'next/image';
 import React from 'react';
 import SwiperCore, { Autoplay, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
-
+import { Pagination } from 'swiper';
+import 'swiper/css/pagination';
+import 'swiper/css';
 SwiperCore.use([Autoplay, Navigation]);
+
 
 const OfferSlider: React.FC = () => {
     const data = [
         {
             img: "quality.svg",
-            title: "Unparalleled Quality",
+            title: "Quality",
             text: "We meticulously curate our collections to ensure that every garment we offer meets the highest standards of quality."
         },
         {
             img: "trendsetting.svg",
-            title: "Trendsetting Style",
+            title: "Aesthetic",
             text: "Our team of experienced fashion experts keeps a pulse on the latest trends and emerging styles."
         },
         {
             img: "community.svg",
-            title: "Community Engagement",
+            title: "Community",
             text: "We actively engage with our community through various initiatives."
+        },
+        {
+            img: "quality.svg",
+            title: "Quality",
+            text: "We meticulously curate our collections to ensure that every garment we offer meets the highest standards of quality."
+        },
+        {
+            img: "trendsetting.svg",
+            title: "Aesthetic",
+            text: "Our team of experienced fashion experts keeps a pulse on the latest trends and emerging styles."
         }
     ];
     return (
@@ -53,6 +65,10 @@ const OfferSlider: React.FC = () => {
                             prevEl: ".swiper-button-prev-5",
                             nextEl: ".swiper-button-next-5",
                         }}
+                        pagination={{
+                            clickable: true
+                        }}
+                        modules={[Pagination]}
                         className="swiper-wrapper pb-70 pt-5"
                     >
                         {data.map((item, i) => (
