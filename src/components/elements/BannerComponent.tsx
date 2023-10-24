@@ -24,7 +24,7 @@ const BannerComponent = () => {
     <div className="row">
       {bannersData.map((banner, index) => (
         <div key={index} className={`col-lg-4`}>
-          <div className={`px-10 mb-30 ${banner.style}`}>
+          <div className={` mb-30 ${banner.style}`}>
             <div className="pl-20">
               <div className="pt-40">
                 <p className={`${Style.textTitle} mb-20`}>COLLECTION</p>

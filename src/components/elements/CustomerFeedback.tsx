@@ -10,14 +10,14 @@ const CustomerFeedback = () => {
         },
         {
             title: 'Highly Recommend',
-            comment: '"The price is a little higher than I expected, but the quality is god-tier. You get what you pay for at its finest."',
+            comment: 'The price is a little higher than I expected, but the quality is god-tier. You get what you pay for at its finest.',
             name: 'Brooklyn Simmons',
             profession: 'Designer',
             image: '/assets/imgs/page/homepage2/user-img-2.png'
         },
         {
             title: 'Wonderful',
-            comment: "'The service couldn't be better. I really couldn't have expected more. From item suggestions to final delivery.'",
+            comment: "The service couldn't be better. I really couldn't have expected more. From item suggestions to final delivery.",
             name: 'John Wilson',
             profession: 'Content Creator',
             image: '/assets/imgs/page/homepage2/user-img-3.png'

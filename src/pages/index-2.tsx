@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import Layout from "../components/layout/Layout";
 import { PricingData2 } from "../Data/pricingData";
@@ -6,13 +7,12 @@ import { PriceTable } from "../components/elements/PriceTable";
 import ProductCategory from "../components/elements/ProductCategory";
 import OfferSlider from "../components/slider/Offer";
 import TestimonialSlider from "../components/slider/Testimonial";
-import Style from '../css/Home2.module.css'
-import { useState } from "react";
 import IconComponent from "../components/elements/IconComponent";
 import BannerComponent from "../components/elements/BannerComponent";
 import { blogsData1 } from "../Data/Blog";
 import { Blogs } from "../components/elements/Blogs";
 import { items } from "../Data/IconData";
+import Style from '../css/Home2.module.css'
 
 function Index2(): JSX.Element {
     const [isActive, setIsActive] = useState(1)

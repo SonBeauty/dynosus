@@ -1,4 +1,4 @@
-import { stay, precisie } from '../../Data/Tailored'
+import { stay } from '../../Data/Tailored'
 import { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 
@@ -13,13 +13,7 @@ const BestSeller = () => {
 
     useEffect(() => {
         switch (pathname) {
-            case '/page-about-3':
-                setLocation(stay)
-                break
-            case '/page-service-1':
-                setLocation(precisie)
-                break
-            case '/':
+            case '/index-3':
                 setLocation(stay)
                 break
             default:

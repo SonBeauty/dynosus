@@ -53,19 +53,19 @@ export const precisie = [
 export const stay = [
     {
         title: "Stay on-trend",
-        content: "Explore our Best Sellers collection for the latest fashion trends that are making waves in the industry.",
+        content: "Explore our Best Sellers collection for the latest trends that are making waves in the industry.",
     },
     {
         title: "Customer Favorites",
-        content: "Discover our most-loved fashion pieces, as recommended by our valued customers.",
+        content: "Discover our most-loved furniture pieces, as recommended by our valued customers.",
     },
     {
         title: "Uncompromising Quality",
-        content: "Shop from our Best Sellers collection, where fashion meets exceptional craftsmanship and high-quality materials.",
+        content: "Shop from our Best Sellers collection, where meets exceptional craftsmanship and high-quality materials.",
     },
     {
         title: "Versatile Style",
-        content: "Find versatile fashion pieces that effortlessly elevate your wardrobe for any occasion.",
+        content: "Find versatile pieces that effortlessly elevate your home for any occasion.",
     }
 ]
 

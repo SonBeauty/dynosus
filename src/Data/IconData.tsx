@@ -21,4 +21,5 @@ export const items2 = [
   { imgSrc: '/assets/imgs/page/homepage3/icon-3.png', text: "" },
   { imgSrc: '/assets/imgs/page/homepage3/icon-4.png', text: "" },
   { imgSrc: '/assets/imgs/page/homepage3/icon-5.png', text: "" },
+  { imgSrc: '/assets/imgs/page/homepage3/icon-6.png', text: "" },
 ]

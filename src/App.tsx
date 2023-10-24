@@ -8,6 +8,7 @@ import SingleVendor from './pages/shop/[id]';
 import About from './pages/about';
 import Services from './pages/services';
 import Faqs from './pages/faqs';
+import Terms from './pages/terms';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Route path='/shop/:id' element={<SingleVendor />} />
       <Route path='/about' element={<About />} />
       <Route path='/faqs' element={<Faqs />} />
+      <Route path='/terms' element={<Terms />} />
     </Routes>
   );
 }
