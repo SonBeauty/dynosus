@@ -3,8 +3,9 @@ import { Link } from 'react-router-dom';
 
 interface NewsletterProps {
   newsletterStyle?: string;
+  newsletterImgUrl: string;
+  chartImgUrl: string;
 }
-
 interface StyleProps {
   tag: string;
   title: string;
@@ -12,79 +13,17 @@ interface StyleProps {
   terms: string;
   button: string;
   bgColor: string;
-  chartImgUrl: string;
 }
 
-const Newsletter: React.FC<NewsletterProps> = ({ newsletterStyle }) => {
+const NewsletterComponent: React.FC<NewsletterProps> = ({ newsletterImgUrl, chartImgUrl, newsletterStyle }) => {
   const [styles, setStyle] = useState<StyleProps>({
     tag: 'color-gray-500',
     title: '',
     content: 'color-gray-500',
     terms: '',
     button: 'btn-send',
-    bgColor: 'bg-2',
-    chartImgUrl: '/assets/imgs/template/chart.png'
+    bgColor: 'bg-6'
   });
-
-  useEffect(() => {
-    switch (newsletterStyle) {
-      case 'style-1':
-        setStyle({
-          tag: 'color-gray-500',
-          title: '',
-          content: 'color-gray-500',
-          terms: '',
-          button: 'btn-send',
-          bgColor: 'bg-6',
-          chartImgUrl: '/assets/imgs/template/chart.png'
-        });
-        break;
-      case 'style-2':
-        setStyle({
-          tag: 'color-white',
-          title: '',
-          content: 'color-white',
-          terms: 'text-white hover-black',
-          button: 'btn-send-red',
-          bgColor: 'bg-red',
-          chartImgUrl: '/assets/imgs/template/chart-2.png'
-        });
-        break;
-      case 'style-3':
-        setStyle({
-          tag: 'color-white',
-          title: 'color-white',
-          content: 'color-white',
-          terms: 'color-white hover-light-pink',
-          button: 'btn-send-pink',
-          bgColor: 'bg-gray-1000',
-          chartImgUrl: '/assets/imgs/template/chart-3.png'
-        });
-        break;
-      case 'style-4':
-        setStyle({
-          tag: 'color-gray-500',
-          title: '',
-          content: 'color-gray-500',
-          terms: 'color-purple hover-dark-red',
-          button: 'btn-send-deep-red',
-          bgColor: 'bg-light-green',
-          chartImgUrl: '/assets/imgs/page/homepage7/chart-2.png'
-        });
-        break;
-      default:
-        setStyle({
-          tag: 'color-gray-500',
-          title: '',
-          content: 'color-gray-500',
-          terms: '',
-          button: 'btn-send',
-          bgColor: 'bg-2',
-          chartImgUrl: '/assets/imgs/template/chart.png'
-        });
-    }
-  }, [newsletterStyle]);
-
 
   return (
     <section className="section-box overflow-visible mt-100 mb-50">
@@ -118,13 +57,14 @@ const Newsletter: React.FC<NewsletterProps> = ({ newsletterStyle }) => {
                 <div className="col-lg-7 col-md-5 mt-30 mt-lg-0 mt-md-30 mt-sm-30 position-relative text-end">
                   <div className="block-chart shape-1">
                     <img
-                      src={styles.chartImgUrl}
+                    width={255} height={193}
+                      src={chartImgUrl}
                       alt="Dionysus"
                     />
                   </div>
                   <div className="img-responsive img-newsletter">
                     <img
-                      src="/assets/imgs/template/img-newsletter-1.png"
+                      src={newsletterImgUrl}
                       alt="Dionysus"
                     />
                   </div>
@@ -138,4 +78,4 @@ const Newsletter: React.FC<NewsletterProps> = ({ newsletterStyle }) => {
   );
 };
 
-export default Newsletter;
+export default NewsletterComponent;
