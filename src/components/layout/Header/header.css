@@ -6,13 +6,14 @@
   color: #fff;
 }
 
-.header.header-bg-transparent .main-menu li a:hover,
-.header.header-bg-transparent .main-menu li a.active {
-  color: #747759;
+.header.header-bg-transparent .main-menu li>a:hover,
+.header-bg-transparent.sticky-bar.stick .main-menu li>a:hover{
+  color: #000000;
 }
 
-.header-bg-transparent.sticky-bar.stick .main-menu li>a:hover{
-  color: #aeb28e;
+.header.header-bg-transparent .main-menu .sub-menu li a:hover,
+.header.header-bg-transparent .main-menu .sub-menu li a.active {
+  color: #747759;
 }
 
 .header.header-bg-transparent.sticky-bar.stick{

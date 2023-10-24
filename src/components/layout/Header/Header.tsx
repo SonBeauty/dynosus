@@ -49,12 +49,12 @@ const HeaderComponent: React.FC<HeaderProps> = ({ handleOpen, headerStyle }) => 
                     <li className="has-children">
                       <Link to="#">Service</Link>
                       <ul className="sub-menu">
-                        <li><Link to="/service" className={`closer ${pathname === '/service' && 'active'}`}><i className="fi fi-rr-gem" />Service</Link></li>
-                        <li><Link to="/faqs" className={`closer ${pathname === '/faqs' && 'active'}`}><i className="fi fi-rr-headset" />FAQs</Link></li>
+                        <li><Link to="/service" className={`${pathname === '/service' && 'active'}`}><i className="fi fi-rr-gem" />Service</Link></li>
+                        <li><Link to="/faqs" className={`${pathname === '/faqs' && 'active'}`}><i className="fi fi-rr-headset" />FAQs</Link></li>
                       </ul>
                     </li>
                     <li>
-                      <Link to="#">Product</Link>
+                      <Link to="/shop" className={`${pathname === '/shop' && 'active'}`}>Product</Link>
                     </li>
                     <li>
                       <Link to="#">Blog</Link>
