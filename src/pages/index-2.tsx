@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import Layout from "../components/layout/Layout";
-import { PricingData3 } from "../Data/pricingData";
+import { PricingData2 } from "../Data/pricingData";
 import { data } from "../Data/ShopData";
 import { PriceTable } from "../components/elements/PriceTable";
 import ProductCategory from "../components/elements/ProductCategory";
@@ -12,6 +12,7 @@ import IconComponent from "../components/elements/IconComponent";
 import BannerComponent from "../components/elements/BannerComponent";
 import { blogsData1 } from "../Data/Blog";
 import { Blogs } from "../components/elements/Blogs";
+import { items } from "../Data/IconData";
 
 function Index2(): JSX.Element {
     const [isActive, setIsActive] = useState(1)
@@ -40,7 +41,7 @@ function Index2(): JSX.Element {
                         <h2 className="text-heading-3 text-center color-gray-900 mb-60">
                             SHOP BY COLLECTION
                         </h2>
-                        <IconComponent />
+                        <IconComponent items={items} />
                         <div className="row mt-80">
                             <BannerComponent />
                         </div>
@@ -98,7 +99,7 @@ function Index2(): JSX.Element {
                             That&apos;s For You
                         </h3>
                     </div>
-                    <PriceTable priceData={PricingData3} priceItemStyle="price-style-4" />
+                    <PriceTable priceData={PricingData2} priceItemStyle="price-style-4" />
                 </section>
             </Layout>
         </>

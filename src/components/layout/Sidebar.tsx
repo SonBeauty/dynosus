@@ -39,7 +39,7 @@ const Sidebar: React.FC<SidebarProps> = ({ openClass }) => {
                 width={50}
                 height={50}
                 src="/assets/imgs/template/ava_1.png"
-                alt="Moirai"
+                alt="Dionysus"
               />
               <div className="content ml-10">
                 <h6 className="user-name">

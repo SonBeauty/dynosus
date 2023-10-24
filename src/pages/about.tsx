@@ -59,7 +59,7 @@ function About(): JSX.Element {
                     height={520}
                     className="img-responsive bdrd-16"
                     src="/assets/imgs/page/about/1/img-1.png"
-                    alt="Moirai"
+                    alt="Dionysus"
                     style={{ objectFit: "cover" }}
                   />
                 </div>

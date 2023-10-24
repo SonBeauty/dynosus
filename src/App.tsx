@@ -7,6 +7,7 @@ import Error from './pages/404';
 import SingleVendor from './pages/shop/[id]';
 import About from './pages/about';
 import Services from './pages/services';
+import Faqs from './pages/faqs';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Route path='*' element={<Error />} />
       <Route path='/shop/:id' element={<SingleVendor />} />
       <Route path='/about' element={<About />} />
+      <Route path='/faqs' element={<Faqs />} />
     </Routes>
   );
 }

@@ -82,31 +82,31 @@ const SingleVendor: React.FC = () => {
                                                         <span>
                                                             <img
                                                                 src="/assets/imgs/page/homepage5/star-active.svg"
-                                                                alt="Moirai"
+                                                                alt="Dionysus"
                                                             />
                                                         </span>
                                                         <span>
                                                             <img
                                                                 src="/assets/imgs/page/homepage5/star-active.svg"
-                                                                alt="Moirai"
+                                                                alt="Dionysus"
                                                             />
                                                         </span>
                                                         <span>
                                                             <img
                                                                 src="/assets/imgs/page/homepage5/star-active.svg"
-                                                                alt="Moirai"
+                                                                alt="Dionysus"
                                                             />
                                                         </span>
                                                         <span>
                                                             <img
                                                                 src="/assets/imgs/page/homepage5/star-active.svg"
-                                                                alt="Moirai"
+                                                                alt="Dionysus"
                                                             />
                                                         </span>
                                                         <span>
                                                             <img
                                                                 src="/assets/imgs/page/homepage5/star.svg"
-                                                                alt="Moirai"
+                                                                alt="Dionysus"
                                                             />
                                                         </span>
                                                     </div>
@@ -178,7 +178,7 @@ const SingleVendor: React.FC = () => {
                                                         type="submit">
                                                         <img
                                                             src="/assets/imgs/page/single-product/cart.svg"
-                                                            alt="Moirai"
+                                                            alt="Dionysus"
                                                         />{" "}
                                                         Add to cart
                                                     </button>
@@ -188,7 +188,7 @@ const SingleVendor: React.FC = () => {
                                                         aria-label="Add To Wishlist">
                                                         <img
                                                             src="/assets/imgs/page/single-product/heart.svg"
-                                                            alt="Moirai"
+                                                            alt="Dionysus"
                                                         />
                                                     </a>
                                                     <a
@@ -197,7 +197,7 @@ const SingleVendor: React.FC = () => {
                                                         aria-label="Compare">
                                                         <img
                                                             src="/assets/imgs/page/single-product/align.svg"
-                                                            alt="Moirai"
+                                                            alt="Dionysus"
                                                         />
                                                     </a>
                                                 </div>
@@ -331,7 +331,7 @@ const SingleVendor: React.FC = () => {
                                                         <div className="vendor-logo d-flex mb-30">
                                                             <img
                                                                 src="/assets/imgs/page/single-product/vendor-18.svg"
-                                                                alt="image"
+                                                                alt="Dionysus"
                                                             />
                                                             <div className="vendor-name ml-15">
                                                                 <h6>
@@ -356,7 +356,7 @@ const SingleVendor: React.FC = () => {
                                                             <li>
                                                                 <img
                                                                     src="/assets/imgs/page/single-product/icon-location.svg"
-                                                                    alt="image"
+                                                                    alt="Dionysus"
                                                                 />
                                                                 <strong>Address: </strong>
                                                                 <span>
@@ -367,7 +367,7 @@ const SingleVendor: React.FC = () => {
                                                             <li>
                                                                 <img
                                                                     src="/assets/imgs/page/single-product/icon-contact.svg"
-                                                                    alt="image"
+                                                                    alt="Dionysus"
                                                                 />
                                                                 <strong>Contact Seller:</strong>
                                                                 <span>(+91) - 540-025-553</span>
@@ -422,7 +422,7 @@ const SingleVendor: React.FC = () => {
                                                                                 <div className="thumb text-center">
                                                                                     <img
                                                                                         src="/assets/imgs/page/single-product/author-2.png"
-                                                                                        alt="image"
+                                                                                        alt="Dionysus"
                                                                                     />
                                                                                     <a
                                                                                         href="#"
@@ -465,7 +465,7 @@ const SingleVendor: React.FC = () => {
                                                                                 <div className="thumb text-center">
                                                                                     <img
                                                                                         src="/assets/imgs/page/single-product/author-3.png"
-                                                                                        alt="image"
+                                                                                        alt="Dionysus"
                                                                                     />
                                                                                     <a
                                                                                         href="#"
@@ -508,7 +508,7 @@ const SingleVendor: React.FC = () => {
                                                                                 <div className="thumb text-center">
                                                                                     <img
                                                                                         src="/assets/imgs/page/single-product/author-4.png"
-                                                                                        alt="image"
+                                                                                        alt="Dionysus"
                                                                                     />
                                                                                     <a
                                                                                         href="#"
