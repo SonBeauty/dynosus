@@ -16,7 +16,7 @@ interface BlogsProps {
 
 const BlogsComponent: React.FC<BlogsProps> = ({ title, description, blogsData }) => {
   return (
-    <section className="section-box mt-100">
+    <section className="section-box">
       {
         title &&
         <div className="container mt-60">
