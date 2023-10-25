@@ -1,0 +1,13 @@
+.category-block {
+  cursor: pointer;
+}
+
+@media (max-width: 575px) {
+  .fitler-info {
+    width: 65%;
+  }
+  
+  .number-info {
+    width: 35%;
+  }
+}

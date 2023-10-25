@@ -8,7 +8,7 @@ import Category from "../components/elements/Category";
 import CustomerFeedback from "../components/elements/CustomerFeedback";
 import Button from "../components/elements/Button/Button";
 import InconTrueSVG from "../components/svg/InconTrueSVG";
-import ProductCategory from "../components/elements/ProductCategory";
+import ProductCategory from "../components/elements/ProductCategory/ProductCategory";
 import { PriceTable } from "../components/elements/PriceTable";
 
 interface Product {
@@ -98,7 +98,7 @@ function Home(): JSX.Element {
               <button onClick={() => { filterProduct('chair'); setActiveButton('chair') }} className={activeButton === "chair" ? `btn ${Style.active}` : "btn"}>CHAIR</button>
               <button onClick={() => { filterProduct('wardrobe'); setActiveButton('wardrobe') }} className={activeButton === "wardrobe" ? `btn ${Style.active}` : "btn"}>WARDROBE</button>
             </div>
-            <ProductCategory data={type} />
+            <ProductCategory data={type} gotoShopBtn/>
           </div>
         </div>
       </section>
