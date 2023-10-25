@@ -8,6 +8,7 @@ import { PriceTable } from "../components/elements/PriceTable";
 import { Newsletter } from '../components/elements/NewSteller';
 import LifecycleComponent from '../components/elements/LifecycleComponent';
 import { lifecycleData } from '../Data/LifecycleData';
+import { Link } from 'react-router-dom';
 
 const Pricing1 = () => {
   return (
@@ -23,6 +24,10 @@ const Pricing1 = () => {
           </h3>
         </div>
         <PriceTable priceData={PricingData2} />
+        <div className='text-center mt-30'>
+          <Link to="" className='btn btn-black icon-arrow-right-white mr-10'>Start free trial</Link>
+          <Link to="" className='btn btn-default hover-up icon-arrow-right ml-10'>View plans comparison</Link>
+        </div>
       </section>
       <LifecycleComponent data={lifecycleData} />
       <CustomerFeedback />
@@ -45,7 +50,9 @@ const Pricing1 = () => {
           </div>
         </div>
       </section>
+      <section className='mb-80'>
       <Newsletter chartImgUrl='./assets/imgs/template/chart.png' newsletterImgUrl='./assets/imgs/page/homepage3/imgNewlestter.png' />
+      </section>
     </Layout>
   )
 }

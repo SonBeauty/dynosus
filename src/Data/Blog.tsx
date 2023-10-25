@@ -148,3 +148,90 @@ export const postsData1: PostData[] = [
     decription: 'This year the transitional furniture feels right when you want to update your home decor.'
   }
 ];
+
+export const blogsData3: BlogData[] = [
+  {
+    tag: 'Lastest trend',
+    title: '5 Tips for Furnishing your New Home',
+    imageUrl: '/assets/imgs/page/blog/blog-1.png',
+    link: '/#',
+    bgColor: 'col-bg-9'
+  },
+  {
+    tag: 'Home improvement',
+    title: 'The Best Ways to Arrange your Living Room Furniture',
+    imageUrl: '/assets/imgs/page/blog/blog-2.png',
+    link: '/#',
+    bgColor: 'color-bg-6'
+  },
+  {
+    tag: 'Design ideas',
+    title: 'Which Sofa Style Suits Your Personality',
+    imageUrl: '/assets/imgs/page/blog/blog-3.png',
+    link: '/#',
+    bgColor: 'color-bg-4'
+  },
+  {
+    tag: 'Lastest trend',
+    title: 'Ideas for Creating an Inviting Entryway',
+    imageUrl: '/assets/imgs/page/blog/blog-4.png',
+    link: '/#',
+    bgColor: 'color-bg-2'
+  },
+  {
+    tag: 'Home Improvement',
+    title: 'Design a Home Office that Works for You',
+    imageUrl: '/assets/imgs/page/blog/blog-5.png',
+    link: '/#',
+    bgColor: 'color-bg-8'
+  },
+  {
+    tag: 'Design ideas',
+    title: 'Transitional Style Takes Center Stage',
+    imageUrl: '/assets/imgs/page/blog/blog-6.png',
+    link: '/#',
+    bgColor: 'color-bg-1'
+  },
+  {
+    tag: 'Design ideas',
+    title: 'Transitional Style Takes Center Stage',
+    imageUrl: '/assets/imgs/page/blog/blog-7.png',
+    link: '/#',
+    bgColor: 'color-bg-2'
+  },
+  {
+    tag: 'Design ideas',
+    title: 'Transitional Style Takes Center Stage',
+    imageUrl: '/assets/imgs/page/blog/blog-8.png',
+    link: '/#',
+    bgColor: 'color-bg-8'
+  },
+  {
+    tag: 'Design ideas',
+    title: 'Transitional Style Takes Center Stage',
+    imageUrl: '/assets/imgs/page/blog/blog-9.png',
+    link: '/#',
+    bgColor: 'color-bg-1'
+  },
+  {
+    tag: 'Lastest trend',
+    title: '5 Tips for Furnishing your New Home',
+    imageUrl: '/assets/imgs/page/blog/blog-1.png',
+    link: '/#',
+    bgColor: 'col-bg-9'
+  },
+  {
+    tag: 'Home improvement',
+    title: 'The Best Ways to Arrange your Living Room Furniture',
+    imageUrl: '/assets/imgs/page/blog/blog-2.png',
+    link: '/#',
+    bgColor: 'color-bg-6'
+  },
+  {
+    tag: 'Design ideas',
+    title: 'Which Sofa Style Suits Your Personality',
+    imageUrl: '/assets/imgs/page/blog/blog-3.png',
+    link: '/#',
+    bgColor: 'color-bg-4'
+  },
+];

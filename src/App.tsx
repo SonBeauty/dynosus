@@ -11,6 +11,8 @@ import Faqs from './pages/faqs';
 import Shop from './pages/shop';
 import Terms from './pages/terms';
 import Pricing1 from './pages/Pricing1';
+import Blog from './pages/Blog';
+import Contact from './pages/Contact';
 
 function App() {
   return (
@@ -27,6 +29,8 @@ function App() {
       <Route path='/shop' element={<Shop />} />
       <Route path='/terms' element={<Terms />} />
       <Route path='/pricing' element={<Pricing1 />} />
+      <Route path='/blog' element={<Blog />} />
+      <Route path='/contact' element={<Contact />} />
     </Routes>
   );
 }

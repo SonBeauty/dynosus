@@ -61,10 +61,10 @@ const HeaderComponent: React.FC<HeaderProps> = ({ handleOpen, headerStyle }) => 
                       <Link to="/shop" className={`${pathname === '/shop' && 'active'}`}>Product</Link>
                     </li>
                     <li>
-                      <Link to="#">Blog</Link>
+                      <Link to="/blog" className={`${pathname === '/blog' && 'active'}`}>Blog</Link>
                     </li>
                     <li>
-                      <Link to="#">Contact</Link>
+                      <Link to="/contact" className={`${pathname === '/contact' && 'active'}`}>Contact</Link>
                     </li>
                   </ul>
                 </nav>
