@@ -6,7 +6,7 @@ import { blogsData1 } from "../Data/Blog";
 import Layout from "../components/layout/Layout";
 import { Blogs } from "../components/elements/Blogs";
 import { PriceTable } from "../components/elements/PriceTable";
-import ProductCategory from "../components/elements/ProductCategory";
+import ProductCategory from "../components/elements/ProductCategory/ProductCategory";
 import OfferSlider from "../components/slider/Offer";
 import TestimonialSlider from "../components/slider/Testimonial";
 import IconComponent from "../components/elements/IconComponent";
@@ -52,7 +52,7 @@ function Index2(): JSX.Element {
             <div className={`${Style.textContain} col-lg-3 col-md-4`} onClick={() => setIsActive(2)}>BEST SELLING <div className={` ${isActive === 2 ? Style.active : ''}`}></div></div>
             <div className={`${Style.textContain} col-lg-3 col-md-4 `} onClick={() => setIsActive(3)}>SPECIAL <div className={` ${isActive === 3 ? Style.active : ''}`}></div></div>
           </div>
-          <ProductCategory data={data} />
+          <ProductCategory data={data} gotoShopBtn/>
         </div>
         <section className="section-box">
           <div className="container">

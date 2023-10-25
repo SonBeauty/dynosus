@@ -86,128 +86,65 @@ export const blogsData2: BlogData[] = [
   }
 ];
 
-export const postsData: PostData[] = [
+export const postsData1: PostData[] = [
   {
-    title: 'Unveiling the Latest Fashion Trends of this Season',
-    imageUrl: '/assets/imgs/page/homepage7/img-blog-1.png',
+    title: '5 Tips for Furnishing your New Home',
+    imageUrl: '/assets/imgs/page/blog/post-img-1.png',
     author: 'Jenny Wilson',
-    authorAvatar: '/assets/imgs/page/blog/2/user-1.png',
-    date: 'August 25, 2022',
-    link: '/#',
-    bgColor: 'bg-light-green',
-    decription: 'Fashion is an ever-evolving phenomenon that shapes our sense of style and self-expression. As we delve into the latest fashion trends, we embark on a captivating journey through the world of apparel.'
-  },
-  {
-    title: 'Mastering the Art of Looking Cool Style',
-    imageUrl: '/assets/imgs/page/homepage7/img-blog-2.png',
-    author: 'Jenny Wilson',
-    authorAvatar: '/assets/imgs/page/blog/2/user-2.png',
-    date: 'August 25, 2022',
-    link: '/#',
-    bgColor: 'bg-light-purple',
-    decription: "There's nothing quite like the effortless, laid-back vibes of fashion that are both comfortable and stylish. Effortless fashion is all about comfort, and letting go of trends that don't fit your personal style."
-  },
-  {
-    title: 'Dressing Nice: Dressing Nice Every Day',
-    imageUrl: '/assets/imgs/page/homepage7/img-blog-3.png',
-    author: 'Jane Cooper',
-    authorAvatar: '/assets/imgs/page/blog/2/user-3.png',
-    date: 'August 25, 2022',
-    link: '/#',
-    bgColor: 'bg-light-green',
-    decription: 'Fashion is an ever-evolving phenomenon that shapes our sense of style and self-expression. As we delve into the latest fashion trends, we embark on a captivating journey through the world of apparel.'
-  },
-  {
-    title: 'The Hottest Fashion Trends of the Season',
-    imageUrl: '/assets/imgs/page/homepage7/img-blog-4.png',
-    author: 'Wade Warren',
-    authorAvatar: '/assets/imgs/page/blog/2/user-4.png',
-    date: 'August 25, 2022',
-    link: '/#',
-    bgColor: 'bg-light-purple',
-    decription: 'Fashion is an ever-evolving phenomenon that shapes our sense of style and self-expression. As we delve into the latest fashion trends, we embark on a captivating journey through the world of apparel.'
-  },
-  {
-    title: 'Dressing Nice: A Guide to Effortless Style',
-    imageUrl: '/assets/imgs/page/homepage7/img-blog-5.png',
-    author: 'Jenny Wilson',
-    authorAvatar: '/assets/imgs/page/blog/2/user-5.png',
-    date: 'August 25, 2022',
-    link: '/#',
-    bgColor: 'bg-light-green',
-    decription: 'Fashion is an ever-evolving phenomenon that shapes our sense of style and self-expression. As we delve into the latest fashion trends, we embark on a captivating journey through the world of apparel.'
-  },
-  {
-    title: 'Dressing Nice: Unleashing Your Style Now',
-    imageUrl: '/assets/imgs/page/homepage7/img-blog-6.png',
-    author: 'Jenny Wilson',
-    authorAvatar: '/assets/imgs/page/blog/2/user-6.png',
-    date: 'August 25, 2022',
-    link: '/#',
-    bgColor: 'bg-light-purple',
-    decription: 'Fashion is an ever-evolving phenomenon that shapes our sense of style and self-expression. As we delve into the latest fashion trends, we embark on a captivating journey through the world of apparel.'
-  }
-];
-
-export const postsData2: PostData[] = [
-  {
-    title: 'The Hottest Fashion Trends of the Season',
-    imageUrl: '/assets/imgs/page/blog/2/img-news-2.png',
-    author: 'Jenny Wilson',
-    authorAvatar: '/assets/imgs/page/blog/2/user-1.png',
-    date: 'August 25, 2022',
-    link: '/#',
-    bgColor: '',
-    decription: "Dressing Nice: Dressing Nice Every Day doesn't have to be a daunting task or reserved for special occasions. With a few simple tips and a little planning, you can elevate your daily style and feel confident in your appearance"
-  },
-  {
-    title: 'Dressing Nice: Unleashing Your Style Now',
-    imageUrl: '/assets/imgs/page/blog/2/img-news-3.png',
-    author: 'Jenny Wilson',
-    authorAvatar: '/assets/imgs/page/blog/2/user-2.png',
-    date: 'August 25, 2022',
-    link: '/#',
-    bgColor: 'color-bg-2',
-    decription: "In this blog post, we'll explore some timeless tips and tricks to help you dress nice effortlessly, regardless of the occasion"
-  },
-  {
-    title: 'The Art of Dressing',
-    imageUrl: '/assets/imgs/page/homepage1/img-news-11.png',
-    author: 'Jane Cooper',
-    authorAvatar: '/assets/imgs/page/blog/2/user-3.png',
-    date: 'August 25, 2022',
-    link: '/#',
-    bgColor: 'color-bg-10',
-    decription: 'Fashion is an ever-evolving phenomenon that shapes our sense of style and self-expression. As we delve into the latest fashion trends, we embark on a captivating journey through the world of apparel.'
-  },
-  {
-    title: 'The Art of Dressing',
-    imageUrl: '/assets/imgs/page/homepage1/img-news-11.png',
-    author: 'Wade Warren',
-    authorAvatar: '/assets/imgs/page/blog/2/user-4.png',
-    date: 'August 25, 2022',
-    link: '/#',
-    bgColor: 'color-bg-2',
-    decription: 'Fashion is an ever-evolving phenomenon that shapes our sense of style and self-expression. As we delve into the latest fashion trends, we embark on a captivating journey through the world of apparel.'
-  },
-  {
-    title: 'Dressing Nice: A Guide to Effortless Style',
-    imageUrl: '/assets/imgs/page/homepage1/img-news-11.png',
-    author: 'Jenny Wilson',
-    authorAvatar: '/assets/imgs/page/blog/2/user-5.png',
-    date: 'August 25, 2022',
-    link: '/#',
-    bgColor: 'color-bg-5',
-    decription: 'Fashion is an ever-evolving phenomenon that shapes our sense of style and self-expression. As we delve into the latest fashion trends, we embark on a captivating journey through the world of apparel.'
-  },
-  {
-    title: 'Dressing Nice: Unleashing Your Style Now',
-    imageUrl: '/assets/imgs/page/homepage1/img-news-11.png',
-    author: 'Jenny Wilson',
-    authorAvatar: '/assets/imgs/page/blog/2/user-6.png',
+    authorAvatar: '/assets/imgs/page/blog/user-1.png',
     date: 'August 25, 2022',
     link: '/#',
     bgColor: 'color-bg-9',
-    decription: 'Fashion is an ever-evolving phenomenon that shapes our sense of style and self-expression. As we delve into the latest fashion trends, we embark on a captivating journey through the world of apparel.'
+    decription: 'When you move to a new home, you have an incredible opportunity to create a harmonious environment throughout the entire house. It is a good idea to know your options before you jump into buying new furniture so...'
+  },
+  {
+    title: 'The Best Ways to Arrange your Living Room Furniture',
+    imageUrl: '/assets/imgs/page/blog/post-img-2.png',
+    author: 'Jenny Wilson',
+    authorAvatar: '/assets/imgs/page/blog/user-2.png',
+    date: 'August 25, 2022',
+    link: '/#',
+    bgColor: 'color-bg-2',
+    decription: "This year the transitional furniture feels right when you want to update your home decor. Interior design styles are moving away from the stark straight lines and strictly neutral color palettes of the last few years. Transitional furniture..."
+  },
+  {
+    title: 'Design a Home Office that Works for You',
+    imageUrl: '/assets/imgs/page/blog/post-img-3.png',
+    author: 'Jane Cooper',
+    authorAvatar: '/assets/imgs/page/blog/user-3.png',
+    date: 'August 25, 2022',
+    link: '/#',
+    bgColor: 'color-bg-10',
+    decription: 'This year the transitional furniture feels right when you want to update your home decor.'
+  },
+  {
+    title: 'Design a Home Office that Works for You',
+    imageUrl: '/assets/imgs/page/blog/post-img-4.png',
+    author: 'Wade Warren',
+    authorAvatar: '/assets/imgs/page/blog/user-4.png',
+    date: 'August 25, 2022',
+    link: '/#',
+    bgColor: 'color-bg-3',
+    decription: 'This year the transitional furniture feels right when you want to update your home decor.'
+  },
+  {
+    title: 'Design a Home Office that Works for You',
+    imageUrl: '/assets/imgs/page/blog/post-img-5.png',
+    author: 'Jenny Wilson',
+    authorAvatar: '/assets/imgs/page/blog/user-5.png',
+    date: 'August 25, 2022',
+    link: '/#',
+    bgColor: 'color-bg-5',
+    decription: 'This year the transitional furniture feels right when you want to update your home decor.'
+  },
+  {
+    title: 'Design a Home Office that Works for You',
+    imageUrl: '/assets/imgs/page/blog/post-img-6.png',
+    author: 'Jenny Wilson',
+    authorAvatar: '/assets/imgs/page/blog/user-6.png',
+    date: 'August 25, 2022',
+    link: '/#',
+    bgColor: 'color-bg-8',
+    decription: 'This year the transitional furniture feels right when you want to update your home decor.'
   }
 ];
