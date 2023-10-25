@@ -1,6 +1,7 @@
 import './App.css';
 import Home from './pages/Home'
 import Index2 from './pages/index-2'
+import Index3 from './pages/index-3';
 import { Routes, Route } from 'react-router-dom';
 import Error from './pages/404';
 import SingleVendor from './pages/shop/[id]';
@@ -16,6 +17,7 @@ function App() {
       <Route path='/' element={<Home />} />
       <Route path='/home' element={<Home />} />
       <Route path='/index-2' element={<Index2 />} />
+      <Route path='/index-3' element={<Index3 />} />
       <Route path="/service" element= {<Services />} />
       <Route path='*' element={<Error />} />
       <Route path='/shop/:id' element={<SingleVendor />} />

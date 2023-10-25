@@ -22244,7 +22244,8 @@ a {
 
 .img-about-2 {
   object-fit: cover;
-  height: 48%;
+  height: 100%;
+  width: 100%
 }
 
 .text-body-lead {
@@ -25672,7 +25673,7 @@ label {
 }
 
 .banner-hero.banner-2 {
-  background-color: #bee1e6;
+  background-color: #fff3ea;
 }
 
 .banner-hero.banner-2 .container {
@@ -29421,7 +29422,7 @@ label {
 }
 
 .bg-color-3 {
-  background-color: #456ba3;
+  background-color: #747759;
 }
 
 .box-gray-100 {
@@ -32592,10 +32593,6 @@ input.qty-val {
     height: 320px;
   }
 
-  .img-about-2 {
-    height: auto;
-  }
-
   .img-res .card-grid-style-4 .grid-4-img::before {
     content: "";
     position: absolute;
@@ -33147,10 +33144,6 @@ input.qty-val {
 
   .images-lists {
     display: none;
-  }
-
-  .img-about-2 {
-    margin-bottom: 2px;
   }
 
   .box-gray-100 {
@@ -33814,7 +33807,7 @@ input.qty-val {
 }
 
 .icon-triangle-2 {
-  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkiIGhlaWdodD0iMjMiIHZpZXdCb3g9IjAgMCAxOSAyMyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgY2xpcC1wYXRoPSJ1cmwoI2NsaXAwXzUwXzg1MSkiPgo8cGF0aCBkPSJNMTcuMDE0IDcuNjMwNThMNy43MzY2NSAwLjkyNTk0OUM3LjAxMjAzIDAuNDAzMDA1IDYuMTU0NjQgMC4wODgwMjY0IDUuMjU5NTEgMC4wMTU5Mjg3QzQuMzY0MzcgLTAuMDU2MTY5IDMuNDY2NDcgMC4xMTc0MyAyLjY2NTMxIDAuNTE3NDgzQzEuODY0MTYgMC45MTc1MzYgMS4xOTEwNSAxLjUyODQyIDAuNzIwNjA0IDIuMjgyNDFDMC4yNTAxNTUgMy4wMzY0MSAwLjAwMDc0MDM1MSAzLjkwNDA3IDUuODY5ZS0wNiA0Ljc4OTIxVjE4LjIwNTJDLTAuMDAxMzkxMzcgMTkuMDkxMiAwLjI0NjcxOSAxOS45NjAyIDAuNzE2NzIgMjAuNzE1NUMxLjE4NjcyIDIxLjQ3MDggMS44NjAxNyAyMi4wODI3IDIuNjYyMTEgMjIuNDgzMUMzLjQ2NDA1IDIyLjg4MzYgNC4zNjMwMSAyMy4wNTY4IDUuMjU4OTMgMjIuOTgzNkM2LjE1NDg2IDIyLjkxMDQgNy4wMTI1OSAyMi41OTM2IDcuNzM2NjUgMjIuMDY4NEwxNy4wMTQgMTUuMzYzOEMxNy42Mjk2IDE0LjkxODYgMTguMTMwMiAxNC4zMzY3IDE4LjQ3NTIgMTMuNjY1NEMxOC44MjAyIDEyLjk5NDEgMTkgMTIuMjUyMSAxOSAxMS40OTk2QzE5IDEwLjc0NzEgMTguODIwMiAxMC4wMDUxIDE4LjQ3NTIgOS4zMzM3NkMxOC4xMzAyIDguNjYyNDMgMTcuNjI5NiA4LjA4MDYgMTcuMDE0IDcuNjM1MzdWNy42MzA1OFoiIGZpbGw9IiM0NTZCQTMiLz4KPC9nPgo8ZGVmcz4KPGNsaXBQYXRoIGlkPSJjbGlwMF81MF84NTEiPgo8cmVjdCB3aWR0aD0iMTkiIGhlaWdodD0iMjMiIGZpbGw9IndoaXRlIi8+CjwvY2xpcFBhdGg+CjwvZGVmcz4KPC9zdmc+Cg==);
+  background-image: url('../public/assets/imgs/page/homepage2/iconPlay.png');
   background-repeat: no-repeat;
   background-position: center left;
   padding-left: 30px;

@@ -26,7 +26,7 @@ const NewsletterComponent: React.FC<NewsletterProps> = ({ newsletterImgUrl, char
   });
 
   return (
-    <section className="section-box overflow-visible mt-100 mb-50">
+    <section className="section-box overflow-visible mt-50 mb-100">
       <div className="container mt-70">
         <div className="row">
           <div className="col-lg-10 mx-auto">

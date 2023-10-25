@@ -41,6 +41,9 @@ const HeaderComponent: React.FC<HeaderProps> = ({ handleOpen, headerStyle }) => 
                         <li>
                           <Link to="/index-2" className={`${pathname === '/index-2' && 'active'}`}><i className="fi fi-rr-home" />Homepage - 2</Link>
                         </li>
+                        <li>
+                          <Link to="/index-3" className={`${pathname === '/index-3' && 'active'}`}><i className="fi fi-rr-home" />Homepage - 3</Link>
+                        </li>
                       </ul>
                     </li>
                     <li>
