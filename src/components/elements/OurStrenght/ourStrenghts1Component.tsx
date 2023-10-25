@@ -44,8 +44,7 @@ const OurStrenghts1Component: React.FC<OurStrenghtsProps> = ({ data }) => {
                   <h4 className="text-heading-4">
                     {content.pointName}
                   </h4>
-                  <p className="text-body-text color-gray-600 mt-15">
-                    {content.text}
+                  <p className="text-body-text color-gray-600 mt-15" dangerouslySetInnerHTML={{ __html: content.text }}>
                   </p>
                 </div>
               </div>
