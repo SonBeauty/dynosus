@@ -107,9 +107,9 @@ function Terms(): JSX.Element {
 									<div className="col-lg-2">
 										<div className={`d-flex ${isDesktop ? "flex-column mt-150" : "flex-row justify-content-center mt-20"}`}>
 											<h3 className={`text-heading-6 color-gray-400 ${isDesktop ? "mb-20" : "hidden"}`}>Share</h3>
-											<Link to="https://facebook.com"><a className="share-social share-fb" target="_blank" rel="noreferrer" ></a></Link>
-											<Link to="https://twitter.com"><a className="share-social share-tw" target="_blank" rel="noreferrer" ></a></Link>
-											<Link to="https://www.pinterest.com"><a className="share-social share-pi" target="_blank" rel="noreferrer" ></a></Link>
+											<Link to="https://facebook.com" className="share-social share-fb" target="_blank" rel="noreferrer" ></Link>
+											<Link to="https://twitter.com" className="share-social share-tw" target="_blank" rel="noreferrer" ></Link>
+											<Link to="https://www.pinterest.com" className="share-social share-pi" target="_blank" rel="noreferrer" ></Link>
 										</div>
 									</div>
 								</div>
@@ -117,7 +117,7 @@ function Terms(): JSX.Element {
 						</div>
 					</div>
 				</section>
-				<Newsletter newsletterImgUrl="/assets/imgs/template/img-newsteller-1.png" chartImgUrl="/assets/imgs/template/chart.png" />
+				<Newsletter newsletterImgUrl="/assets/imgs/template/img-newsteller-2.png" chartImgUrl="/assets/imgs/template/chart.png" />
 			</Layout>
 		</>
 	)

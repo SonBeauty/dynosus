@@ -4,7 +4,7 @@ import Layout from "../components/layout/Layout";
 import { PricingData2 } from "../Data/pricingData";
 import { data } from "../Data/ShopData";
 import { PriceTable } from "../components/elements/PriceTable";
-import ProductCategory from "../components/elements/ProductCategory";
+import ProductCategory from "../components/elements/ProductCategory/ProductCategory";
 import OfferSlider from "../components/slider/Offer";
 import TestimonialSlider from "../components/slider/Testimonial";
 import IconComponent from "../components/elements/IconComponent";

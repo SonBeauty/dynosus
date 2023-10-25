@@ -57,7 +57,7 @@ const HeaderComponent: React.FC<HeaderProps> = ({ handleOpen, headerStyle }) => 
                       </ul>
                     </li>
                     <li>
-                      <Link to="#">Product</Link>
+                      <Link to="/shop" className={`${pathname === '/shop' && 'active'}`}>Product</Link>
                     </li>
                     <li>
                       <Link to="#">Blog</Link>
