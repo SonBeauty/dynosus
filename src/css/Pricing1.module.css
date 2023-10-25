@@ -1,0 +1,36 @@
+.header {
+  background-image: url('../../public/assets/imgs/page/pricing1/banner.png');
+  height: 715px;
+  width: 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.textBanner {
+  color: var(--White-1, #FFF);
+  text-align: center;
+  font-family: Chivo;
+  font-size: 125.635px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 138.199px; 
+  letter-spacing: -0.628px;
+}
+
+@media (max-width: 1199.98px) {
+  .textTitle {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .textBanner {
+    font-size: 80px;
+  }
+}
