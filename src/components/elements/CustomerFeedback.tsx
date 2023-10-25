@@ -24,7 +24,7 @@ const CustomerFeedback = () => {
         },
         {
             title: 'Wonderful',
-            comment: 'The sense of style is elegant and classy. The way furnitures are put together is fashionable and trendy.',
+            comment: 'I ordered a sofa from this furniture store and I was very impressed by their service. The shipping was fast and the delivery was smooth. The sofa arrived in perfect condition.',
             name: 'Albert Flores',
             profession: 'Software Engineer',
             image: '/assets/imgs/page/homepage2/user-img-4.png'
